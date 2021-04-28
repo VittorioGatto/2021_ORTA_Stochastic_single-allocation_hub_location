@@ -1,0 +1,6180 @@
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 16 rows, 60 columns and 120 nonzeros
+Model fingerprint: 0x62a7ad60
+Variable types: 0 continuous, 60 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [2e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e+01, 5e+01]
+Found heuristic solution: objective 138.3200000
+Presolve time: 0.00s
+Presolved: 16 rows, 60 columns, 120 nonzeros
+Variable types: 0 continuous, 60 integer (60 binary)
+
+Root relaxation: objective 1.452433e+02, 21 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  145.24333    0    9  138.32000  145.24333  5.01%     -    0s
+     0     0  144.10642    0   17  138.32000  144.10642  4.18%     -    0s
+H    0     0                     141.1700000  144.10642  2.08%     -    0s
+     0     0  142.15250    0    4  141.17000  142.15250  0.70%     -    0s
+*    0     0               0     142.0400000  142.04000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 7
+  Clique: 2
+  MIR: 5
+  StrongCG: 2
+
+Explored 1 nodes (65 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 142.04 141.17 138.32 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.420400000000e+02, best bound 1.420400000000e+02, gap 0.0000%
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:31 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:32 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:33 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:34 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:35 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:36 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:37 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Sat Apr 10 21:33:38 2021
+
+
+Gurobi 9.1.1 (linux64) logging started Mon Apr 12 22:47:21 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 16 rows, 60 columns and 120 nonzeros
+Model fingerprint: 0x62a7ad60
+Variable types: 0 continuous, 60 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [2e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e+01, 5e+01]
+Found heuristic solution: objective 138.3200000
+Presolve time: 0.00s
+Presolved: 16 rows, 60 columns, 120 nonzeros
+Variable types: 0 continuous, 60 integer (60 binary)
+
+Root relaxation: objective 1.452433e+02, 21 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  145.24333    0    9  138.32000  145.24333  5.01%     -    0s
+     0     0  144.10642    0   17  138.32000  144.10642  4.18%     -    0s
+H    0     0                     141.1700000  144.10642  2.08%     -    0s
+     0     0  142.15250    0    4  141.17000  142.15250  0.70%     -    0s
+*    0     0               0     142.0400000  142.04000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 7
+  Clique: 2
+  MIR: 5
+  StrongCG: 2
+
+Explored 1 nodes (65 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 142.04 141.17 138.32 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.420400000000e+02, best bound 1.420400000000e+02, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Wed Apr 28 15:29:20 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 16 rows, 60 columns and 120 nonzeros
+Model fingerprint: 0x49f84eaf
+Variable types: 0 continuous, 60 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [2e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e+01, 5e+01]
+Found heuristic solution: objective 138.3200000
+Presolve time: 0.00s
+Presolved: 16 rows, 60 columns, 120 nonzeros
+Variable types: 0 continuous, 60 integer (60 binary)
+
+Root relaxation: objective 1.452433e+02, 21 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  145.24333    0    9  138.32000  145.24333  5.01%     -    0s
+     0     0  144.10642    0   17  138.32000  144.10642  4.18%     -    0s
+H    0     0                     141.1700000  144.10642  2.08%     -    0s
+     0     0  142.15250    0    4  141.17000  142.15250  0.70%     -    0s
+*    0     0               0     142.0400000  142.04000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 7
+  Clique: 2
+  MIR: 5
+  StrongCG: 2
+
+Explored 1 nodes (65 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 142.04 141.17 138.32 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.420400000000e+02, best bound 1.420400000000e+02, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Wed Apr 28 15:36:56 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 16 rows, 60 columns and 120 nonzeros
+Model fingerprint: 0x49f84eaf
+Variable types: 0 continuous, 60 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [2e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e+01, 5e+01]
+Found heuristic solution: objective 138.3200000
+Presolve time: 0.00s
+Presolved: 16 rows, 60 columns, 120 nonzeros
+Variable types: 0 continuous, 60 integer (60 binary)
+
+Root relaxation: objective 1.452433e+02, 21 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  145.24333    0    9  138.32000  145.24333  5.01%     -    0s
+     0     0  144.10642    0   17  138.32000  144.10642  4.18%     -    0s
+H    0     0                     141.1700000  144.10642  2.08%     -    0s
+     0     0  142.15250    0    4  141.17000  142.15250  0.70%     -    0s
+*    0     0               0     142.0400000  142.04000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 7
+  Clique: 2
+  MIR: 5
+  StrongCG: 2
+
+Explored 1 nodes (65 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 142.04 141.17 138.32 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.420400000000e+02, best bound 1.420400000000e+02, gap 0.0000%
