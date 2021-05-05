@@ -5,7 +5,7 @@ import logging
 import numpy as np
 from simulator.instance import Instance
 from simulator.tester import Tester
-from solver.simpleKnapsack import SimpleKnapsack
+from solver.stochasticSaphlp import StochasticSaphlp
 from heuristic.simpleHeu import SimpleHeu
 from solver.sampler import Sampler
 from utility.plot_results import plot_comparison_hist
@@ -33,19 +33,9 @@ if __name__ == '__main__':
     
     # Reward generation
     n_scenarios = 5
-    reward = sam.sample_stoch(
-        inst,
-        n_scenarios=n_scenarios
-    )
+    reward = sam.sample_stoch(inst, n_scenarios=n_scenarios)
 
-    #Soluzione automatica
-    # mean_reward = sam.sample_ev(
-    #     inst,
-    #     n_scenarios=n_scenarios
-    # )
-    # print(mean_reward)
-
-    prb = SimpleKnapsack()
+    prb = StochasticSaphlp()
     of_exact, sol_exact, comp_time_exact = prb.solve(
         dict_data,
         reward,
