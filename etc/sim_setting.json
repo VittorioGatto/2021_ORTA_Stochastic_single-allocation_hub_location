@@ -1,8 +1,9 @@
 {
-	"knapsack_size": 50,
-	"low_size": 1,
-	"high_size": 10,
-	"n_items": 10,
-	"low_profit": 5,
-	"high_profit": 10
+	"n_nodes": 10,
+	"low_cost": 5,
+	"high_cost": 10,
+	"low_distance": 5,
+	"high_distance": 10,
+	"low_flow" : 5,
+	"high_flow": 10
 }

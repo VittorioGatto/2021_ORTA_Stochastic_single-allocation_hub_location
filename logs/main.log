@@ -1,56 +1,56 @@
-15:36:56 INFO: starting simulation...
-15:36:56 INFO: max_size: 50
-15:36:56 INFO: sizes: [ 6.  7.  6.  6.  5.  7.  5.  9. 10.  4.]
-15:36:56 INFO: profits: [8.96 7.64 7.84 9.63 5.36 5.44 5.1  9.16 8.89 9.35]
-15:36:56 INFO: n_items: 10
-15:36:56 INFO: sizes_ss: [10.  8.  5.  8.  2.  7.  2. 10.  6.  5.]
-15:36:56 INFO: max_size_ss: 50
-15:36:56 INFO: simulation end
-15:36:56 INFO: getting data from instance...
-15:36:56 INFO: SimpleKP
-15:36:56 INFO: Academic license - for non-commercial use only - expires 2021-06-27
-15:36:56 INFO: Using license file /home/vittorio/gurobi.lic
-15:36:56 INFO: Parameter OutputFlag unchanged
-15:36:56 INFO:    Value: 1  Min: 0  Max: 1  Default: 1
-15:36:56 INFO: Changed value of parameter LogFile to ./logs/gurobi.log
-15:36:56 INFO:    Prev:   Default: 
-15:36:56 INFO: Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
-15:36:56 INFO: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
-15:36:56 INFO: Optimize a model with 16 rows, 60 columns and 120 nonzeros
-15:36:56 INFO: Model fingerprint: 0x49f84eaf
-15:36:56 INFO: Variable types: 0 continuous, 60 integer (0 binary)
-15:36:56 INFO: Coefficient statistics:
-15:36:56 INFO:   Matrix range     [1e+00, 1e+01]
-15:36:56 INFO:   Objective range  [2e+00, 1e+01]
-15:36:56 INFO:   Bounds range     [1e+00, 1e+00]
-15:36:56 INFO:   RHS range        [5e+01, 5e+01]
-15:36:56 INFO: Found heuristic solution: objective 138.3200000
-15:36:56 INFO: Presolve time: 0.00s
-15:36:56 INFO: Presolved: 16 rows, 60 columns, 120 nonzeros
-15:36:56 INFO: Variable types: 0 continuous, 60 integer (60 binary)
-15:36:56 INFO: 
-15:36:56 INFO: Root relaxation: objective 1.452433e+02, 21 iterations, 0.00 seconds
-15:36:56 INFO: 
-15:36:56 INFO:     Nodes    |    Current Node    |     Objective Bounds      |     Work
-15:36:56 INFO:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
-15:36:56 INFO: 
-15:36:56 INFO:      0     0  145.24333    0    9  138.32000  145.24333  5.01%     -    0s
-15:36:56 INFO:      0     0  144.10642    0   17  138.32000  144.10642  4.18%     -    0s
-15:36:56 INFO: H    0     0                     141.1700000  144.10642  2.08%     -    0s
-15:36:56 INFO:      0     0  142.15250    0    4  141.17000  142.15250  0.70%     -    0s
-15:36:56 INFO: *    0     0               0     142.0400000  142.04000  0.00%     -    0s
-15:36:56 INFO: 
-15:36:56 INFO: Cutting planes:
-15:36:56 INFO:   Gomory: 1
-15:36:56 INFO:   Cover: 7
-15:36:56 INFO:   Clique: 2
-15:36:56 INFO:   MIR: 5
-15:36:56 INFO:   StrongCG: 2
-15:36:56 INFO: 
-15:36:56 INFO: Explored 1 nodes (65 simplex iterations) in 0.01 seconds
-15:36:56 INFO: Thread count was 4 (of 4 available processors)
-15:36:56 INFO: 
-15:36:56 INFO: Solution count 3: 142.04 141.17 138.32 
-15:36:56 INFO: 
-15:36:56 INFO: Optimal solution found (tolerance 1.00e-04)
-15:36:56 INFO: Best objective 1.420400000000e+02, best bound 1.420400000000e+02, gap 0.0000%
+17:12:25 INFO: starting simulation...
+17:12:25 INFO: max_size: 50
+17:12:25 INFO: sizes: [ 6.  7.  6.  6.  5.  7.  5.  9. 10.  4.]
+17:12:25 INFO: profits: [8.96 7.64 7.84 9.63 5.36 5.44 5.1  9.16 8.89 9.35]
+17:12:25 INFO: n_items: 10
+17:12:25 INFO: sizes_ss: [10.  8.  5.  8.  2.  7.  2. 10.  6.  5.]
+17:12:25 INFO: max_size_ss: 50
+17:12:25 INFO: simulation end
+17:12:25 INFO: getting data from instance...
+17:12:25 INFO: SimpleKP
+17:12:26 INFO: Academic license - for non-commercial use only - expires 2021-06-27
+17:12:26 INFO: Using license file /home/vittorio/gurobi.lic
+17:12:26 INFO: Parameter OutputFlag unchanged
+17:12:26 INFO:    Value: 1  Min: 0  Max: 1  Default: 1
+17:12:26 INFO: Changed value of parameter LogFile to ./logs/gurobi.log
+17:12:26 INFO:    Prev:   Default: 
+17:12:26 INFO: Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+17:12:26 INFO: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+17:12:26 INFO: Optimize a model with 16 rows, 60 columns and 120 nonzeros
+17:12:26 INFO: Model fingerprint: 0x49f84eaf
+17:12:26 INFO: Variable types: 0 continuous, 60 integer (0 binary)
+17:12:26 INFO: Coefficient statistics:
+17:12:26 INFO:   Matrix range     [1e+00, 1e+01]
+17:12:26 INFO:   Objective range  [2e+00, 1e+01]
+17:12:26 INFO:   Bounds range     [1e+00, 1e+00]
+17:12:26 INFO:   RHS range        [5e+01, 5e+01]
+17:12:26 INFO: Found heuristic solution: objective 138.3200000
+17:12:26 INFO: Presolve time: 0.00s
+17:12:26 INFO: Presolved: 16 rows, 60 columns, 120 nonzeros
+17:12:26 INFO: Variable types: 0 continuous, 60 integer (60 binary)
+17:12:26 INFO: 
+17:12:26 INFO: Root relaxation: objective 1.452433e+02, 21 iterations, 0.00 seconds
+17:12:26 INFO: 
+17:12:26 INFO:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+17:12:26 INFO:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+17:12:26 INFO: 
+17:12:26 INFO:      0     0  145.24333    0    9  138.32000  145.24333  5.01%     -    0s
+17:12:26 INFO:      0     0  144.10642    0   17  138.32000  144.10642  4.18%     -    0s
+17:12:26 INFO: H    0     0                     141.1700000  144.10642  2.08%     -    0s
+17:12:26 INFO:      0     0  142.15250    0    4  141.17000  142.15250  0.70%     -    0s
+17:12:26 INFO: *    0     0               0     142.0400000  142.04000  0.00%     -    0s
+17:12:26 INFO: 
+17:12:26 INFO: Cutting planes:
+17:12:26 INFO:   Gomory: 1
+17:12:26 INFO:   Cover: 7
+17:12:26 INFO:   Clique: 2
+17:12:26 INFO:   MIR: 5
+17:12:26 INFO:   StrongCG: 2
+17:12:26 INFO: 
+17:12:26 INFO: Explored 1 nodes (65 simplex iterations) in 0.01 seconds
+17:12:26 INFO: Thread count was 4 (of 4 available processors)
+17:12:26 INFO: 
+17:12:26 INFO: Solution count 3: 142.04 141.17 138.32 
+17:12:26 INFO: 
+17:12:26 INFO: Optimal solution found (tolerance 1.00e-04)
+17:12:26 INFO: Best objective 1.420400000000e+02, best bound 1.420400000000e+02, gap 0.0000%

@@ -85,7 +85,7 @@ if __name__ == '__main__':
     #     "profit", "occurencies"
     # )
 
-    #euristic solution
+    #heuristic solution
 
     heu = SimpleHeu()
     of_heu, sol_heu, comp_time_heu = heu.solve(
