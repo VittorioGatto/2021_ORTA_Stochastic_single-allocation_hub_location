@@ -10,7 +10,7 @@ class StochasticSaphlp():
         pass
 
     def solve(self, dict_data, reward, n_scenarios, time_limit=None, gap=None, verbose=False):
-        items = range(dict_data['n_items'])
+        items = range(dict_data['n_nodes'])
         scenarios = range(n_scenarios)
 
         problem_name = "StohasticSaphlp"
