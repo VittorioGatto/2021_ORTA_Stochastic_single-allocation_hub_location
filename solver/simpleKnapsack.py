@@ -29,7 +29,7 @@ class SimpleKnapsack():
             name='X'
         )
         Y = model.addVars(
-            dict_data['n_items'], n_scenarios,
+            dict_data['n_items'], dict_data['n_items'],
             lb=0,
             ub=1,
             vtype=GRB.INTEGER,

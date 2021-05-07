@@ -33,7 +33,7 @@ if __name__ == '__main__':
     
     # Reward generation
     n_scenarios = 5
-    reward = sam.sample_stoch(inst, n_scenarios=n_scenarios)
+    reward = sam.sample_stoch(inst, n_scenarios = n_scenarios)
 
     prb = StochasticSaphlp()
     of_exact, sol_exact, comp_time_exact = prb.solve(

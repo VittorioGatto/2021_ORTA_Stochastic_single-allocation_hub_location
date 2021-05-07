@@ -13,5 +13,5 @@ class Sampler:
     def sample_stoch(self, instance, n_scenarios):
         return np.around(np.absolute(np.random.normal(10,
             1,
-            size=(instance.n_items, n_scenarios))
+            size=(instance.n_nodes, n_scenarios))
         ))

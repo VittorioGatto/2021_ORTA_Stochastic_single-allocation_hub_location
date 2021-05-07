@@ -1,9 +1,11 @@
-18:44:27 INFO: starting simulation...
-18:44:27 INFO: n_nodes: 10
-18:44:27 INFO: cost: [ 8.  9.  8.  8.  7.  8.  7.  9. 10.  7.]
-18:44:27 INFO: max_distance: 10
-18:44:27 INFO: distance: [ 9.  8.  8. 10.  5.  5.  5.  9.  9.  9.]
-18:44:27 INFO: O_flow: [10.  9.  7.  9.  6.  8.  6. 10.  8.  7.]
-18:44:27 INFO: D_flow: [ 6.  9.  7.  8.  5.  8.  8.  8. 10.  8.]
-18:44:27 INFO: simulation end
-18:44:27 INFO: getting data from instance...
+14:23:19 INFO: starting simulation...
+14:23:19 INFO: n_nodes: 10
+14:23:19 INFO: cost: [ 8.  9.  8.  8.  7.  8.  7.  9. 10.  7.]
+14:23:19 INFO: max_distance: 10
+14:23:19 INFO: distance: [ 9.  8.  8. 10.  5.  5.  5.  9.  9.  9.]
+14:23:19 INFO: O_flow: [10.  9.  7.  9.  6.  8.  6. 10.  8.  7.]
+14:23:19 INFO: D_flow: [ 6.  9.  7.  8.  5.  8.  8.  8. 10.  8.]
+14:23:19 INFO: simulation end
+14:23:19 INFO: getting data from instance...
+14:23:19 INFO: StohasticSaphlp
+14:23:19 INFO: Restricted license - for non-production use only - expires 2022-01-13
