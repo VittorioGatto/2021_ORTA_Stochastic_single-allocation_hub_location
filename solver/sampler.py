@@ -11,7 +11,4 @@ class Sampler:
         return np.average(demand, axis=1)
 
     def sample_stoch(self, instance, n_scenarios):
-        return np.around(np.absolute(np.random.normal(10,
-            1,
-            size=(instance.n_nodes, n_scenarios))
-        ))
+        return np.around(np.absolute(np.random.normal(10, 1, size=(instance.n_nodes, n_scenarios))))

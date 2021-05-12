@@ -33,16 +33,11 @@ if __name__ == '__main__':
     
     # Reward generation
     n_scenarios = 5
-    reward = sam.sample_stoch(inst, n_scenarios = n_scenarios)
+    reward = sam.sample_stoch(inst, n_scenarios=n_scenarios)
 
     prb = StochasticSaphlp()
-    of_exact, sol_exact, comp_time_exact = prb.solve(
-        dict_data,
-        reward,
-        n_scenarios,
-        verbose=True
-    )
-    print("Solution of knaspasack")
+    of_exact, sol_exact, comp_time_exact = prb.solve(dict_data, reward, n_scenarios, verbose=True)
+    print("Solution with GUROBI")
     print(of_exact, sol_exact, comp_time_exact)
 
     # COMPARISON:
@@ -78,26 +73,15 @@ if __name__ == '__main__':
     #heuristic solution
 
     heu = SimpleHeu()
-    of_heu, sol_heu, comp_time_heu = heu.solve(
-        dict_data,
-        reward,
-        n_scenarios
-    )
+    of_heu, sol_heu, comp_time_heu = heu.solve(dict_data, reward, n_scenarios)
 
     print("Heuristic solution")
     print(of_heu, sol_heu, comp_time_heu)
 
     # printing results of a file
-    file_output = open(
-        "./results/exp_general_table.csv",
-        "w"
-    )
+    file_output = open("./results/exp_general_table.csv", "w")
     file_output.write("method, of, sol, time\n")
-    file_output.write("{}, {}, {}, {}\n".format(
-        "heu", of_heu, sol_heu, comp_time_heu
-    ))
-    file_output.write("{}, {}, {}, {}\n".format(
-        "exact", of_heu, sol_heu, comp_time_heu
-    ))
+    file_output.write("{}, {}, {}, {}\n".format("heu", of_heu, sol_heu, comp_time_heu))
+    file_output.write("{}, {}, {}, {}\n".format("exact", of_heu, sol_heu, comp_time_heu))
     file_output.close()
 

@@ -1,9 +1,14 @@
 {
 	"n_nodes": 10,
+	"low_cost_fixed": 5,
+	"high_cost_fixed": 10,
 	"low_cost": 5,
 	"high_cost": 10,
-	"low_distance": 5,
-	"high_distance": 10,
-	"low_flow" : 5,
-	"high_flow": 10
+	"low_d": 5,
+	"high_d": 10,
+	"low_w" : 5,
+	"high_w": 10,
+	"alpha": 0.75,
+	"chi": 3.0,
+	"sigma": 2.0
 }

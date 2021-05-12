@@ -1,11 +1,6 @@
-14:23:19 INFO: starting simulation...
-14:23:19 INFO: n_nodes: 10
-14:23:19 INFO: cost: [ 8.  9.  8.  8.  7.  8.  7.  9. 10.  7.]
-14:23:19 INFO: max_distance: 10
-14:23:19 INFO: distance: [ 9.  8.  8. 10.  5.  5.  5.  9.  9.  9.]
-14:23:19 INFO: O_flow: [10.  9.  7.  9.  6.  8.  6. 10.  8.  7.]
-14:23:19 INFO: D_flow: [ 6.  9.  7.  8.  5.  8.  8.  8. 10.  8.]
-14:23:19 INFO: simulation end
-14:23:19 INFO: getting data from instance...
-14:23:19 INFO: StohasticSaphlp
-14:23:19 INFO: Restricted license - for non-production use only - expires 2022-01-13
+18:55:30 INFO: starting simulation...
+18:55:30 INFO: n_nodes: 10
+18:55:30 INFO: getting data from instance...
+18:55:30 INFO: StohasticSaphlp
+18:55:30 INFO: Academic license - for non-commercial use only - expires 2021-06-27
+18:55:30 INFO: Using license file /home/vittorio/gurobi.lic
