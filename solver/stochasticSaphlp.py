@@ -18,12 +18,18 @@ class StochasticSaphlp():
 
 
         model = gp.Model(problem_name)
-        X = model.addVars(dict_data['n_nodes'], dict_data['n_nodes'], lb=0, ub=1, vtype=GRB.INTEGER, name='X')
-        Z = model.addVars(dict_data['n_nodes'], n_scenarios, lb=0, ub=1, vtype=GRB.INTEGER, name='Z')
-
+        Z = model.addVars(dict_data['n_nodes'], lb=0, ub=1, vtype=GRB.INTEGER, name='Z')
+        X = model.addVars(dict_data['n_nodes'], n_scenarios, lb=0, ub=1, vtype=GRB.INTEGER, name='X')
+        print(dict_data["f"][0])
+        #objective function 1st stage
         obj_funct = gp.quicksum(dict_data["f"][i] * Z[i] for i in items)
-        obj_funct += gp.quicksum(reward[i, s] * X[i, s] for i in items for s in scenarios) / (n_scenarios + 0.0)
-        model.setObjective(obj_funct, GRB.MAXIMIZE)
+
+        #objective function 2nd stage
+        #obj_funct += gp.quicksum(reward[i, s] * X[i, s] for i in items for s in scenarios) / (n_scenarios + 0.0)
+
+        #objective function 3rd stage
+        #obj_funct += gp.quicksum()
+        model.setObjective(obj_funct, GRB.MINIMIZE)
 
         model.addConstr(gp.quicksum(X[i] for i in items) == 1)
         model.addConstr(gp.quicksum(X[i] for i in items) <= X[k][k])

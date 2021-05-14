@@ -7,6 +7,7 @@ class Instance():
     def __init__(self, sim_setting):
         logging.info("starting simulation...")
 
+        #number of nodes
         self.n_nodes = sim_setting['n_nodes']
 
         self.alpha = sim_setting['alpha']
@@ -15,6 +16,7 @@ class Instance():
 
         self.sigma = sim_setting['sigma']
 
+        #f is the fixed cost of the hub node
         self.f = np.around(np.random.uniform(sim_setting['low_cost_fixed'], sim_setting['high_cost_fixed'],
                                              sim_setting['n_nodes']))
 
@@ -23,7 +25,8 @@ class Instance():
                                              size=(sim_setting['n_nodes'], sim_setting['n_nodes'])))
         self.d = (self.d + self.d.T) / 2
         np.fill_diagonal(self.d, 0)
-
+        
+        #matrix of the flow
         self.w = np.around(np.random.uniform(sim_setting['low_w'], sim_setting['high_w'],
                                              size=(sim_setting['n_nodes'], sim_setting['n_nodes'])))
         self.O_flow = self.w.sum(axis=1)
