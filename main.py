@@ -25,7 +25,7 @@ if __name__ == '__main__':
     sim_setting = json.load(fp)
     fp.close()
 
-    sam = Sampler()
+
 
     inst = Instance(sim_setting)
     dict_data = inst.get_data()
@@ -33,11 +33,10 @@ if __name__ == '__main__':
     
     # Reward generation
     n_scenarios = 5
-    W = sam.W_stoch(inst, n_scenarios=n_scenarios)
-    O_flow = sam.O_stoch(inst, n_scenarios=n_scenarios)
-    C = sam.C_stoch(inst, n_scenarios=n_scenarios)
+    sam = Sampler(inst,  n_scenarios)
+
     prb = StochasticSaphlp()
-    of_exact, sol_exact, comp_time_exact = prb.solve(dict_data, reward, n_scenarios, verbose=True)
+    of_exact, sol_exact, comp_time_exact = prb.solve(dict_data, sam, n_scenarios, verbose=True)
     print("Solution with GUROBI")
     print(of_exact, sol_exact, comp_time_exact)
 

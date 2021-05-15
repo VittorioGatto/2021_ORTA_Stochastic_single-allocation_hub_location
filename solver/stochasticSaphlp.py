@@ -9,7 +9,7 @@ class StochasticSaphlp():
     def __init__(self):
         pass
 
-    def solve(self, dict_data, reward, n_scenarios, time_limit=None, gap=None, verbose=False):
+    def solve(self, dict_data, sam, n_scenarios, time_limit=None, gap=None, verbose=False):
         nodes = range(dict_data['n_nodes'])
         scenarios = range(n_scenarios)
 
@@ -19,16 +19,17 @@ class StochasticSaphlp():
 
         model = gp.Model(problem_name)
         Z = model.addVars(dict_data['n_nodes'], lb=0, ub=1, vtype=GRB.INTEGER, name='Z')
-        X = model.addVars(dict_data['n_nodes'], dict_data['n_nodes'], n_scenarios, lb=0, ub=1, vtype=GRB.INTEGER, name='X')
+        X = model.addVars(dict_data['n_nodes'], dict_data['n_nodes'], n_scenarios, lb=0, ub=1, vtype=GRB.INTEGER,
+                          name='X')
 
         #objective function 1st stage
         obj_funct = gp.quicksum(dict_data['f'][i] * Z[i] for i in nodes)
 
         #objective function 2nd stage
-        obj_funct += gp.quicksum(dict_data['c'][i, k, s] * X[i, k, s] for i in nodes for k in nodes for s in scenarios) / (n_scenarios + 0.0)
+        obj_funct += gp.quicksum(sam.c[i, k, s] * X[i, k, s] for i in nodes for k in nodes for s in scenarios) / (n_scenarios + 0.0)
 
         #objective function 3rd stage
-        obj_funct += gp.quicksum(dict_data['alpha']*dict_data['w'])
+        #obj_funct += gp.quicksum(dict_data['alpha']*sam.w)
 
         model.setObjective(obj_funct, GRB.MINIMIZE)
 
