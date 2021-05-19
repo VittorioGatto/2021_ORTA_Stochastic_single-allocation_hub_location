@@ -16,20 +16,54 @@ class StochasticSaphlp():
         problem_name = "StohasticSaphlp"
         logging.info("{}".format(problem_name))
 
-
         model = gp.Model(problem_name)
         Z = model.addVars(dict_data['n_nodes'], lb=0, ub=1, vtype=GRB.INTEGER, name='Z')
         X = model.addVars(dict_data['n_nodes'], dict_data['n_nodes'], n_scenarios, lb=0, ub=1, vtype=GRB.INTEGER,
                           name='X')
 
-        #objective function 1st stage
+        # objective function 1st stage
         obj_funct = gp.quicksum(dict_data['f'][i] * Z[i] for i in nodes)
 
-        #objective function 2nd stage
-        obj_funct += gp.quicksum(sam.c[i, k, s] * X[i, k, s] for i in nodes for k in nodes for s in scenarios) / (n_scenarios + 0.0)
+        # objective function 2nd stage
+        obj_funct += gp.quicksum(sam.c[i, k, s] * X[i, k, s] for i in nodes for k in nodes for s in scenarios) / (
+                n_scenarios + 0.0)
 
-        #objective function 3rd stage
-        #obj_funct += gp.quicksum(dict_data['alpha']*sam.w)
+
+        # objective function 2rd stage
+        #
+        # for s in scenarios:
+        #     for i in nodes:
+        #         for j in nodes:
+        #             for l in nodes:
+        #                 for k in nodes:
+        #                         obj_funct += gp.quicksum(
+        #                              dict_data['alpha'] * sam.w[i, j, s] * (dict_data['d'][i, j] * Z[i] * Z[j] +
+        #                              dict_data['d'][i, l] * Z[i] * X[j, l, s] +
+        #                              dict_data['d'][k, j] * X[i, k, s] * Z[j] +
+        #                              dict_data['d'][k, l] * X[i, k, s] * X[j, l, s] for k in nodes for l in nodes)
+
+
+xq        p_sum = 0
+        for s in scenarios:
+            for i in nodes:
+                for j in nodes:
+                    f_term = dict_data['d'][i, j] * Z[i] * Z[j]
+                    for l in nodes:
+                        for k in nodes:
+                            if l != k:
+                                PG = dict_data['d'][l, k] * X[i, l, s]
+                                p_sum += gp.quicksum(PG * X[j, k])
+                    for k in nodes:
+                        K =+ dict_data['d'][k, j] * X[i, k, s] * Z[j]
+                    for l in nodes:
+                        L =+ (dict_data['d'][i, l] * Z[i] * X[j, l, s])
+                    K = p_sum + K
+                    L = L + K
+                    f_term = f_term + L
+                    s_term = dict_data['alpha'] * sam.w[i, j, s]
+            obj_funct += gp.quicksum(s_term * f_term)
+
+
 
         model.setObjective(obj_funct, GRB.MINIMIZE)
 
@@ -37,13 +71,10 @@ class StochasticSaphlp():
         model.addConstr(gp.quicksum(X[i] for i in items) <= X[k][k])
 
         for s in scenarios:
-            model.addConstr(
-                gp.quicksum(dict_data['flow'][i] * Y[i, s] for i in nodes) <= dict_data['max_flow'],
-                f"volume_limit_ss_{s}")
-
-        for i in nodes:
-            model.addConstr(
-                gp.quicksum(Y[i, s] for s in scenarios) <= n_scenarios * X[i], f"link_X_Y_for_item_{i}")
+            for i in nodes:
+                for k in nodes:
+                    if k != i:
+                        model.addConstr(gp.quicksum(X[i, k, s] == 1 - Z[i]))
 
 
         model.update()
