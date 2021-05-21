@@ -24,58 +24,54 @@ class StochasticSaphlp():
         # objective function 1st stage
         obj_funct = gp.quicksum(dict_data['f'][i] * Z[i] for i in nodes)
 
-        # objective function 2nd stage
+        # objective function 2nd stage - 1st term
         obj_funct += gp.quicksum(sam.c[i, k, s] * X[i, k, s] for i in nodes for k in nodes for s in scenarios) / (
                 n_scenarios + 0.0)
 
-
-        # objective function 2rd stage
-        #
-        # for s in scenarios:
-        #     for i in nodes:
-        #         for j in nodes:
-        #             for l in nodes:
-        #                 for k in nodes:
-        #                         obj_funct += gp.quicksum(
-        #                              dict_data['alpha'] * sam.w[i, j, s] * (dict_data['d'][i, j] * Z[i] * Z[j] +
-        #                              dict_data['d'][i, l] * Z[i] * X[j, l, s] +
-        #                              dict_data['d'][k, j] * X[i, k, s] * Z[j] +
-        #                              dict_data['d'][k, l] * X[i, k, s] * X[j, l, s] for k in nodes for l in nodes)
-
-
-xq        p_sum = 0
+        # objective function 2nd stage - 2nd term
         for s in scenarios:
+            p_sum = 0
+            K = 0
+            L = 0
+            f_term = 0
+            s_term = 0
             for i in nodes:
                 for j in nodes:
                     f_term = dict_data['d'][i, j] * Z[i] * Z[j]
                     for l in nodes:
                         for k in nodes:
-                            if l != k:
+                            if i != k and j != l:
                                 PG = dict_data['d'][l, k] * X[i, l, s]
-                                p_sum += gp.quicksum(PG * X[j, k])
+                                p_sum += PG * X[j, k, s]
                     for k in nodes:
-                        K =+ dict_data['d'][k, j] * X[i, k, s] * Z[j]
+                        if i != k:
+                            K += dict_data['d'][k, j] * X[i, k, s] * Z[j]
                     for l in nodes:
-                        L =+ (dict_data['d'][i, l] * Z[i] * X[j, l, s])
+                        if j != l:
+                            L += (dict_data['d'][i, l] * Z[i] * X[j, l, s])
                     K = p_sum + K
                     L = L + K
                     f_term = f_term + L
                     s_term = dict_data['alpha'] * sam.w[i, j, s]
-            obj_funct += gp.quicksum(s_term * f_term)
-
-
+            obj_funct += s_term * f_term
 
         model.setObjective(obj_funct, GRB.MINIMIZE)
 
-        model.addConstr(gp.quicksum(X[i] for i in items) == 1)
-        model.addConstr(gp.quicksum(X[i] for i in items) <= X[k][k])
-
+        # constraint equation 25
         for s in scenarios:
             for i in nodes:
+                sum_constr = 0
                 for k in nodes:
-                    if k != i:
-                        model.addConstr(gp.quicksum(X[i, k, s] == 1 - Z[i]))
+                    if i != k:
+                        sum_constr += X[i, k, s]
+                model.addConstr(sum_constr == 1-Z[i])
 
+        # constraint equation26
+        for s in scenarios:
+            for k in nodes:
+                for i in nodes:
+                    if k != i:
+                        model.addConstr(X[i,k,s]<=Z[k])
 
         model.update()
         if gap:
