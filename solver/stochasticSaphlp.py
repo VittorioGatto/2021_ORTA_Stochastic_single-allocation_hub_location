@@ -2,11 +2,12 @@
 import time
 import logging
 import gurobipy as gp
+import numpy as np
 from gurobipy import GRB
 
 
 class StochasticSaphlp():
-    def __init__(self):
+    def init(self):
         pass
 
     def solve(self, dict_data, sam, n_scenarios, time_limit=None, gap=None, verbose=False):
@@ -64,14 +65,14 @@ class StochasticSaphlp():
                 for k in nodes:
                     if i != k:
                         sum_constr += X[i, k, s]
-                model.addConstr(sum_constr == 1-Z[i])
+                model.addConstr(sum_constr == 1 - Z[i])
 
         # constraint equation26
         for s in scenarios:
             for k in nodes:
                 for i in nodes:
                     if k != i:
-                        model.addConstr(X[i,k,s]<=Z[k])
+                        model.addConstr(X[i, k, s] <= Z[k])
 
         model.update()
         if gap:
@@ -90,12 +91,19 @@ class StochasticSaphlp():
         end = time.time()
         comp_time = end - start
 
-        sol = [0] * dict_data['n_items']
+        solZ = np.zeros(dict_data['n_nodes'])
+        solX = np.zeros(dict_data['n_nodes'], dict_data['n_nodes'], n_scenarios)
+
         of = -1
 
         if model.status == GRB.Status.OPTIMAL:
-            for i in nodes:
-                grb_var = model.getVarByName(f"X[{i}]")
-                sol[i] = grb_var.X
+            for k in nodes:
+                grb_var = model.getVarByName(f"Z[{k}]")
+                solZ[k] = grb_var.Z
+                for i in nodes:
+                    for s in nodes:
+                        grb_var1 = model.getVarByName(f"Z[{i}, {k}, {s}]")
+                        solZ[i, k, s] = grb_var1.Z
             of = model.getObjective().getValue()
-        return of, sol, comp_time
+
+        return of, solZ, solX, comp_time
