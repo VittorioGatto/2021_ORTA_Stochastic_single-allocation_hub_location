@@ -1,6 +1,40 @@
-15:11:03 INFO: starting simulation...
-15:11:03 INFO: n_nodes: 10
-15:11:03 INFO: getting data from instance...
-15:11:03 INFO: StohasticSaphlp
-15:11:03 INFO: Academic license - for non-commercial use only - expires 2021-06-11
-15:11:03 INFO: Using license file /home/giulia/gurobi.lic
+16:25:06 INFO: starting simulation...
+16:25:06 INFO: n_nodes: 4
+16:25:06 INFO: getting data from instance...
+16:25:06 INFO: StohasticSaphlp
+16:25:07 INFO: Academic license - for non-commercial use only - expires 2021-06-27
+16:25:07 INFO: Using license file /home/vittorio/gurobi.lic
+16:25:07 INFO: Parameter OutputFlag unchanged
+16:25:07 INFO:    Value: 1  Min: 0  Max: 1  Default: 1
+16:25:07 INFO: Changed value of parameter LogFile to ./logs/gurobi.log
+16:25:07 INFO:    Prev:   Default: 
+16:25:07 INFO: Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+16:25:07 INFO: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+16:25:07 INFO: Optimize a model with 80 rows, 84 columns and 200 nonzeros
+16:25:07 INFO: Model fingerprint: 0x34884376
+16:25:07 INFO: Variable types: 0 continuous, 84 integer (0 binary)
+16:25:07 INFO: Coefficient statistics:
+16:25:07 INFO:   Matrix range     [1e+00, 1e+00]
+16:25:07 INFO:   Objective range  [8e+00, 3e+02]
+16:25:07 INFO:   Bounds range     [1e+00, 1e+00]
+16:25:07 INFO:   RHS range        [1e+00, 1e+00]
+16:25:07 INFO: Found heuristic solution: objective 1300.5000000
+16:25:07 INFO: Presolve removed 0 rows and 20 columns
+16:25:07 INFO: Presolve time: 0.00s
+16:25:07 INFO: Presolved: 80 rows, 64 columns, 200 nonzeros
+16:25:07 INFO: Variable types: 0 continuous, 64 integer (64 binary)
+16:25:07 INFO: 
+16:25:07 INFO: Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+16:25:07 INFO: 
+16:25:07 INFO:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+16:25:07 INFO:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+16:25:07 INFO: 
+16:25:07 INFO: *    0     0               0      33.0000000   33.00000  0.00%     -    0s
+16:25:07 INFO: 
+16:25:07 INFO: Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+16:25:07 INFO: Thread count was 4 (of 4 available processors)
+16:25:07 INFO: 
+16:25:07 INFO: Solution count 2: 33 1300.5 
+16:25:07 INFO: 
+16:25:07 INFO: Optimal solution found (tolerance 1.00e-04)
+16:25:07 INFO: Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%

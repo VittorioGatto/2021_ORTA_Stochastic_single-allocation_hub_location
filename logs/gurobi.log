@@ -6447,3 +6447,1863 @@ Solution count 3: 142.04 141.17 138.32
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.420400000000e+02, best bound 1.420400000000e+02, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:29:17 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.01s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.03 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:30:38 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:32:35 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:32:53 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:34:03 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:34:21 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:34:41 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:36:59 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:37:19 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:37:42 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:37:51 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:38:04 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:40:22 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:40:26 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:40:37 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:44:13 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:44:44 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:47:30 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:48:38 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:49:08 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:49:19 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:49:28 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:49:58 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:55:13 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:55:41 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:56:10 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:58:05 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:58:41 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:59:13 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 15:59:40 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:00:01 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:00:18 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:00:31 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:02:02 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:02:09 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:02:31 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:04:03 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:04:25 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:04:37 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:05:06 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:05:54 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:06:38 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:06:57 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:08:20 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:09:09 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:13:16 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:14:35 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:14:44 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:18:23 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:19:00 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:19:18 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:22:27 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:23:46 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%
+
+Gurobi 9.1.2 (linux64) logging started Fri May 21 16:25:07 2021
+
+Changed value of parameter LogFile to ./logs/gurobi.log
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 80 rows, 84 columns and 200 nonzeros
+Model fingerprint: 0x34884376
+Variable types: 0 continuous, 84 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1300.5000000
+Presolve removed 0 rows and 20 columns
+Presolve time: 0.00s
+Presolved: 80 rows, 64 columns, 200 nonzeros
+Variable types: 0 continuous, 64 integer (64 binary)
+
+Root relaxation: objective 3.300000e+01, 4 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      33.0000000   33.00000  0.00%     -    0s
+
+Explored 0 nodes (4 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 33 1300.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.300000000000e+01, best bound 3.300000000000e+01, gap 0.0000%

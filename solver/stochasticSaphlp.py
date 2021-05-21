@@ -19,8 +19,7 @@ class StochasticSaphlp():
 
         model = gp.Model(problem_name)
         Z = model.addVars(dict_data['n_nodes'], lb=0, ub=1, vtype=GRB.INTEGER, name='Z')
-        X = model.addVars(dict_data['n_nodes'], dict_data['n_nodes'], n_scenarios, lb=0, ub=1, vtype=GRB.INTEGER,
-                          name='X')
+        X = model.addVars(dict_data['n_nodes'], dict_data['n_nodes'], n_scenarios, lb=0, ub=1, vtype=GRB.INTEGER, name='X')
 
         # objective function 1st stage
         obj_funct = gp.quicksum(dict_data['f'][i] * Z[i] for i in nodes)
@@ -91,19 +90,20 @@ class StochasticSaphlp():
         end = time.time()
         comp_time = end - start
 
-        solZ = np.zeros(dict_data['n_nodes'])
-        solX = np.zeros(dict_data['n_nodes'], dict_data['n_nodes'], n_scenarios)
+        solZ = np.zeros(shape=dict_data['n_nodes'])
+        solX = np.zeros(shape=(dict_data['n_nodes'], dict_data['n_nodes'], n_scenarios))
 
         of = -1
 
         if model.status == GRB.Status.OPTIMAL:
             for k in nodes:
-                grb_var = model.getVarByName(f"Z[{k}]")
-                solZ[k] = grb_var.Z
-                for i in nodes:
-                    for s in nodes:
-                        grb_var1 = model.getVarByName(f"Z[{i}, {k}, {s}]")
-                        solZ[i, k, s] = grb_var1.Z
+                grb_var1 = model.getVarByName(f"Z[{k}]")
+                solZ[k] = grb_var1.X
+            # for s in scenarios:
+            #     for i in nodes:
+            #         for k in nodes:
+            #             grb_var2 = model.getVarByName(f"X[{i}; {k}; {s}]")
+            #             solX[i, k, s] = grb_var2.X
             of = model.getObjective().getValue()
 
-        return of, solZ, solX, comp_time
+        return of, solZ,  comp_time
