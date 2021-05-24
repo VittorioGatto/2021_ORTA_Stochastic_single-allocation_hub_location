@@ -1,7 +1,7 @@
 {
-	"n_nodes": 10,
-	"low_cost_fixed": 5,
-	"high_cost_fixed": 10,
+	"n_nodes": 6,
+	"low_cost_fixed": 50000,
+	"high_cost_fixed": 100000,
 	"low_d": 5,
 	"high_d": 10,
 	"alpha": 0.75,

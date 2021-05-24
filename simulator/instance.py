@@ -16,7 +16,7 @@ class Instance:
 
         self.sigma = sim_setting['sigma']
 
-        # f is the fixed cost of the hub node
+        #f is the fixed cost of the hub node
         self.f = np.around(np.random.uniform(sim_setting['low_cost_fixed'], sim_setting['high_cost_fixed'],
                                              sim_setting['n_nodes']))
 
@@ -24,6 +24,12 @@ class Instance:
                                              size=(sim_setting['n_nodes'], sim_setting['n_nodes'])))
         self.d = (self.d + self.d.T) / 2
         np.fill_diagonal(self.d, 0)
+        print("f: ")
+        print(self.f)
+        print("d: ")
+        print(self.d)
+        #self.f = sim_setting['f']
+        #self.d = sim_setting['d']
 
         logging.info(f"n_nodes: {self.n_nodes}")
 
@@ -36,5 +42,4 @@ class Instance:
             "alpha": self.alpha,
             "chi": self.chi,
             "sigma": self.sigma,
-
         }

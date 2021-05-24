@@ -99,11 +99,11 @@ class StochasticSaphlp():
             for k in nodes:
                 grb_var1 = model.getVarByName(f"Z[{k}]")
                 solZ[k] = grb_var1.X
-            # for s in scenarios:
-            #     for i in nodes:
-            #         for k in nodes:
-            #             grb_var2 = model.getVarByName(f"X[{i}; {k}; {s}]")
-            #             solX[i, k, s] = grb_var2.X
+            for s in scenarios:
+                for i in nodes:
+                    for k in nodes:
+                        grb_var2 = model.getVarByName(f"X[{i},{k},{s}]")
+                        solX[i, k, s] = grb_var2.X
             of = model.getObjective().getValue()
 
-        return of, solZ,  comp_time
+        return of, solZ, solX, comp_time

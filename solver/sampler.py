@@ -8,7 +8,7 @@ class Sampler:
         self.n_scenarios = n_scenarios
 
         # w is the flow from node s to node j
-        self.w = np.around(np.absolute(np.random.normal(10, 1, size=(instance.n_nodes, instance.n_nodes, n_scenarios))))
+        self.w = np.around(np.absolute(np.random.normal(10, 8, size=(instance.n_nodes, instance.n_nodes, n_scenarios))))
         for s in range(n_scenarios):
             self.w[:, :, s] = (self.w[:, :, s] + self.w[:, :, s].T) / 2
             np.fill_diagonal(self.w[:, :, s], 0)
@@ -30,3 +30,5 @@ class Sampler:
                 for k in range(instance.n_nodes):
                     self.c[j][k][s] = instance.d[j][k] * (instance.chi * self.O_flow[j][s]
                                                           + instance.sigma * self.D_flow[j][s])
+
+
