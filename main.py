@@ -71,12 +71,12 @@ if __name__ == '__main__':
 
     # heuristic solution
 
-    # heu = SimpleHeu()
-    # of_heu, sol_heu, comp_time_heu = heu.solve(dict_data, reward, n_scenarios)
-    #
-    # print("Heuristic solution")
-    # print(of_heu, sol_heu, comp_time_heu)
-    #
+    heu = SimpleHeu()
+    of_heu, sol_heu, comp_time_heu = heu.solve(dict_data, sam, n_scenarios)
+
+    print("Heuristic solution")
+    print(of_heu, sol_heu, comp_time_heu)
+
     # # printing results of a file
     # file_output = open("./results/exp_general_table.csv", "w")
     # file_output.write("method, of, sol, time\n")

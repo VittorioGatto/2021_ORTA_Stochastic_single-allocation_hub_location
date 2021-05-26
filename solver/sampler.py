@@ -8,6 +8,8 @@ class Sampler:
         self.n_scenarios = n_scenarios
 
         # w is the flow from node s to node j
+        #self.w = np.ones((instance.n_nodes, instance.n_nodes, n_scenarios))
+
         self.w = np.around(np.absolute(np.random.normal(10, 8, size=(instance.n_nodes, instance.n_nodes, n_scenarios))))
         for s in range(n_scenarios):
             self.w[:, :, s] = (self.w[:, :, s] + self.w[:, :, s].T) / 2

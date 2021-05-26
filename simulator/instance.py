@@ -17,19 +17,24 @@ class Instance:
         self.sigma = sim_setting['sigma']
 
         #f is the fixed cost of the hub node
-        self.f = np.around(np.random.uniform(sim_setting['low_cost_fixed'], sim_setting['high_cost_fixed'],
-                                             sim_setting['n_nodes']))
+        self.f = [100, 10, 10, 10, 10, 10]
+        #self.f = np.around(np.random.uniform(sim_setting['low_cost_fixed'], sim_setting['high_cost_fixed'],
+        #                                     sim_setting['n_nodes']))
 
-        self.d = np.around(np.random.uniform(sim_setting['low_d'], sim_setting['high_d'],
-                                             size=(sim_setting['n_nodes'], sim_setting['n_nodes'])))
-        self.d = (self.d + self.d.T) / 2
-        np.fill_diagonal(self.d, 0)
-        print("f: ")
-        print(self.f)
-        print("d: ")
-        print(self.d)
-        #self.f = sim_setting['f']
-        #self.d = sim_setting['d']
+        #d is the matrix of distances between
+        self.d = np.array([[0, 100, 100, 100, 100, 100],
+                           [100, 0, 5, 5, 5, 5],
+                           [100, 5, 0, 5, 5, 5],
+                           [100, 5, 5, 0, 5, 5],
+                           [100, 5, 5, 5, 0, 5],
+                           [100, 5, 5, 5, 5, 0]])
+
+        # self.d = np.around(np.random.uniform(sim_setting['low_d'], sim_setting['high_d'],
+        #                                      size=(sim_setting['n_nodes'], sim_setting['n_nodes'])))
+        # self.d = (self.d + self.d.T) / 2
+        # np.fill_diagonal(self.d, 0)
+
+
 
         logging.info(f"n_nodes: {self.n_nodes}")
 
