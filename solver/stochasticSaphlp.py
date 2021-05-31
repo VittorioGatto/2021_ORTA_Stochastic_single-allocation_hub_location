@@ -25,35 +25,41 @@ class StochasticSaphlp():
         obj_funct = gp.quicksum(dict_data['f'][i] * Z[i] for i in nodes)
 
         # objective function 2nd stage - 1st term
-        obj_funct += gp.quicksum(sam.c[i, k, s] * X[i, k, s] for i in nodes for k in nodes for s in scenarios) / (
-                n_scenarios + 0.0)
-
-        # objective function 2nd stage - 2nd term
         for s in scenarios:
-            p_sum = 0
-            K = 0
-            L = 0
-            f_term = 0
-            s_term = 0
+            temp = 0
             for i in nodes:
-                for j in nodes:
-                    f_term = dict_data['d'][i, j] * Z[i] * Z[j]
-                    for l in nodes:
+                for k in nodes:
+                    if i != k:
+                        temp = sam.c[i, k, s] * X[i, k, s] / n_scenarios
+            obj_funct += temp
+
+
+            for s in scenarios:
+                PG = 0
+                K = 0
+                L = 0
+                A = 0
+                s_term = 0
+                for i in nodes:
+                    for j in nodes:
+                        A = dict_data['d'][i, j] * Z[i] * Z[j]
+
+                        for l in nodes:
+                            if l != j:
+                                PG += dict_data['d'][i, l] * Z[i] * X[j, l, s]
+
                         for k in nodes:
-                            if i != k and j != l:
-                                PG = dict_data['d'][l, k] * X[i, l, s]
-                                p_sum += PG * X[j, k, s]
-                    for k in nodes:
-                        if i != k:
-                            K += dict_data['d'][k, j] * X[i, k, s] * Z[j]
-                    for l in nodes:
-                        if j != l:
-                            L += (dict_data['d'][i, l] * Z[i] * X[j, l, s])
-                    K = p_sum + K
-                    L = L + K
-                    f_term = f_term + L
-                    s_term = dict_data['alpha'] * sam.w[i, j, s]
-            obj_funct += s_term * f_term
+                            if i != k:
+                                K += dict_data['d'][k, j] * X[i, k, s] * Z[j]
+
+                        for l in nodes:
+                            for k in nodes:
+                                if i != k:
+                                    if j != l:
+                                        L += (dict_data['d'][k, l] * X[i, k, s] * X[j, l, s])
+
+                        s_term = dict_data['alpha'] * sam.w[i, j, s]*(A + PG + K + L)
+                obj_funct += s_term/n_scenarios
 
         model.setObjective(obj_funct, GRB.MINIMIZE)
 
