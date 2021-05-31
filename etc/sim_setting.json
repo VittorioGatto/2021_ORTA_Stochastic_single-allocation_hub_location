@@ -1,5 +1,5 @@
 {
-	"n_nodes": 6,
+	"n_nodes": 8,
 	"low_cost_fixed": 50000,
 	"high_cost_fixed": 9000000,
 	"low_d": 1,
