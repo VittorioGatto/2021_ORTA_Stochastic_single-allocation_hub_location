@@ -37,7 +37,17 @@ if __name__ == '__main__':
     prb = StochasticSaphlp()
     of_exact, sol_Z, sol_X, comp_time_exact = prb.solve(dict_data, sam, n_scenarios, verbose=False)
     print("Solution with GUROBI")
-    print(of_exact, sol_exact, comp_time_exact)
+    print("Obj funct solution:  ", of_exact)
+    print("Z: \n", sol_Z)
+    print("d:", "\n", inst.d)
+    for s in range(n_scenarios):
+        print("O_flow in scenario:", s, "\n", sam.O_flow[:, s])
+        print("D_flow in scenario:", s, "\n", sam.D_flow[:, s])
+        print("C in scenario:", s, "\n", sam.c[:, :, s])
+        print("X in scenario:", s, "\n", sol_X[:, :, s])
+    print("Computational time", comp_time_exact)
+
+    plot_results(inst, sam, sol_Z, sol_X, n_scenarios)
 
     # COMPARISON:
     # test = Tester()
