@@ -40,18 +40,6 @@ class SimpleHeu():
                 if p[i] >= thresh:
                     sol_z[i] = 1
 
-
-
-       #     X = np.zeros((nodes, nodes))
-
-       #     for i in range(0, nodes):
-       #         if Z[i] == 1:
-       #             continue
-       #         valid_idx = np.where(D[i, :] > 0)[0]
-       #         closestHub = valid_idx[D[valid_idx, :].argmin()]
-                # closestHub = np.argmin(D[:, i])
-       #         X[i][closestHub] = 1
-
         # sol_x = [0] * dict_data['n_items']
         # of = -1
         #
