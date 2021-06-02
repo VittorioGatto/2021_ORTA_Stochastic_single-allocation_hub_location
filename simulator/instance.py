@@ -17,17 +17,22 @@ class Instance:
         self.sigma = sim_setting['sigma']
 
         #f is the fixed cost of the hub node
-        self.f = [100, 1, 100, 100, 1, 100, 100, 100]
-        # self.f = np.around(np.random.uniform(sim_setting['low_cost_fixed'], sim_setting['high_cost_fixed'],
-        #                                      sim_setting['n_nodes']))
+        #self.f = [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+        self.f = np.around(np.random.uniform(sim_setting['low_cost_fixed'], sim_setting['high_cost_fixed'],
+                                            sim_setting['n_nodes']))
 
 
-        # d is the matrix of distances between
-        #self.d = np.array([ [0, 1, 5, 5, 100],
-        #                    [1, 0, 1, 100, 100],
-        #                    [5, 1, 0, 5, 100],
-        #                    [5, 100, 5, 0, 1],
-        #                    [100, 100, 100, 1, 0]])
+        # # d is the matrix of distances between
+        # self.d = np.array([ [ 0,  1,  1,  1,  1, 50, 50, 50, 50, 50],
+        #                     [ 1,  0,  1,  1,  1, 50, 50, 50, 50, 50],
+        #                     [ 1,  1,  0,  1,  1, 50, 50, 50, 50, 50],
+        #                     [ 1,  1,  1,  0,  1, 50, 50, 50, 50, 50],
+        #                     [ 1,  1,  1,  1,  0, 50,  1,  1,  1,  1],
+        #                     [50, 50, 50, 50, 50,  0,  1,  1,  1,  1],
+        #                     [50, 50, 50, 50,  1,  1,  0,  1,  1,  1],
+        #                     [50, 50, 50, 50,  1,  1,  1,  0,  1,  1],
+        #                     [50, 50, 50, 50,  1,  1,  1,  1,  0,  1],
+        #                     [50, 50, 50, 50,  1,  1,  1,  1,  1,  0]])
 
         self.d = np.around(np.random.uniform(sim_setting['low_d'], sim_setting['high_d'],
                                              size=(sim_setting['n_nodes'], sim_setting['n_nodes'])))

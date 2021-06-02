@@ -1,9 +1,9 @@
 {
-	"n_nodes": 8,
-	"low_cost_fixed": 50000,
-	"high_cost_fixed": 9000000,
-	"low_d": 1,
-	"high_d": 10,
+	"n_nodes": 15,
+	"low_cost_fixed": 25000,
+	"high_cost_fixed": 30000,
+	"low_d": 10000,
+	"high_d": 20000,
 	"alpha": 0.75,
 	"chi": 3.0,
 	"sigma": 2.0

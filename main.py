@@ -30,7 +30,7 @@ if __name__ == '__main__':
     # print(dict_data)
 
     # Reward generation
-    n_scenarios = 5
+    n_scenarios = 10
     sam = Sampler(inst, n_scenarios)
 
 
@@ -38,11 +38,13 @@ if __name__ == '__main__':
     of_exact, sol_Z, sol_X, comp_time_exact = prb.solve(dict_data, sam, n_scenarios, verbose=False)
     print("Solution with GUROBI")
     print("Obj funct solution:  ", of_exact)
+    print("F: \n", inst.f)
     print("Z: \n", sol_Z)
     print("d:", "\n", inst.d)
     for s in range(n_scenarios):
         print("O_flow in scenario:", s, "\n", sam.O_flow[:, s])
         print("D_flow in scenario:", s, "\n", sam.D_flow[:, s])
+        print("W flow in scenario:", s, "\n", sam.w[:, :, s])
         print("C in scenario:", s, "\n", sam.c[:, :, s])
         print("X in scenario:", s, "\n", sol_X[:, :, s])
     print("Computational time", comp_time_exact)

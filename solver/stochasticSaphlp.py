@@ -30,36 +30,36 @@ class StochasticSaphlp():
             for i in nodes:
                 for k in nodes:
                     if i != k:
-                        temp = sam.c[i, k, s] * X[i, k, s] / n_scenarios
-            obj_funct += temp
+                        temp = sam.c[i, k, s] * X[i, k, s]
+            obj_funct += temp / n_scenarios
 
+        # objective function 2nd stage - 2nd term
+        for s in scenarios:
+            PG = 0
+            K = 0
+            L = 0
+            A = 0
+            s_term = 0
+            for i in nodes:
+                for j in nodes:
+                    A = dict_data['d'][i, j] * Z[i] * Z[j]
 
-            for s in scenarios:
-                PG = 0
-                K = 0
-                L = 0
-                A = 0
-                s_term = 0
-                for i in nodes:
-                    for j in nodes:
-                        A = dict_data['d'][i, j] * Z[i] * Z[j]
+                    for l in nodes:
+                        if l != j:
+                            PG += dict_data['d'][i, l] * Z[i] * X[j, l, s]
 
-                        for l in nodes:
-                            if l != j:
-                                PG += dict_data['d'][i, l] * Z[i] * X[j, l, s]
+                    for k in nodes:
+                        if i != k:
+                            K += dict_data['d'][k, j] * X[i, k, s] * Z[j]
 
+                    for l in nodes:
                         for k in nodes:
                             if i != k:
-                                K += dict_data['d'][k, j] * X[i, k, s] * Z[j]
+                                if j != l:
+                                    L += (dict_data['d'][k, l] * X[i, k, s] * X[j, l, s])
 
-                        for l in nodes:
-                            for k in nodes:
-                                if i != k:
-                                    if j != l:
-                                        L += (dict_data['d'][k, l] * X[i, k, s] * X[j, l, s])
-
-                        s_term = dict_data['alpha'] * sam.w[i, j, s]*(A + PG + K + L)
-                obj_funct += s_term/n_scenarios
+                    s_term = dict_data['alpha'] * sam.w[i, j, s] * (A + PG + K + L)
+            obj_funct += s_term / n_scenarios
 
         model.setObjective(obj_funct, GRB.MINIMIZE)
 
@@ -70,14 +70,20 @@ class StochasticSaphlp():
                 for k in nodes:
                     if i != k:
                         sum_constr += X[i, k, s]
-                model.addConstr(sum_constr == 1 - Z[i])
+                model.addConstr(sum_constr == (1 - Z[i]), f"only _one_hubs{s}")
 
-        # constraint equation26
+        # constraint equation 26
         for s in scenarios:
-            for k in nodes:
-                for i in nodes:
+            for i in nodes:
+                for k in nodes:
                     if k != i:
-                        model.addConstr(X[i, k, s] <= Z[k])
+                        model.addConstr(X[i, k, s] <= Z[k], f"nodes_no connected{i,k,s}")
+
+
+        # sum_constr = 0
+        # for i in nodes:
+        #     sum_constr += Z[i]
+        # model.addConstr(sum_constr >= 2)
 
         model.update()
         if gap:
