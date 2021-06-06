@@ -1,16 +1,8 @@
-18:56:50 INFO: starting simulation...
-18:56:50 INFO: n_nodes: 15
-18:56:50 INFO: getting data from instance...
-18:56:50 INFO: StohasticSaphlp
-18:56:50 INFO: Academic license - for non-commercial use only - expires 2021-06-27
-18:56:50 INFO: Using license file /home/vittorio/gurobi.lic
-18:57:23 WARNING: No handles with labels found to put in legend.
-18:57:23 WARNING: No handles with labels found to put in legend.
-18:57:23 WARNING: No handles with labels found to put in legend.
-18:57:23 WARNING: No handles with labels found to put in legend.
-18:57:24 WARNING: No handles with labels found to put in legend.
-18:57:24 WARNING: No handles with labels found to put in legend.
-18:57:24 WARNING: No handles with labels found to put in legend.
-18:57:24 WARNING: No handles with labels found to put in legend.
-18:57:25 WARNING: No handles with labels found to put in legend.
-18:57:25 WARNING: No handles with labels found to put in legend.
+18:45:06 INFO: StohasticSaphlp
+18:45:06 INFO: Academic license - for non-commercial use only - expires 2021-06-27
+18:45:06 INFO: Using license file /home/vittorio/gurobi.lic
+18:45:06 WARNING: No handles with labels found to put in legend.
+18:45:06 WARNING: No handles with labels found to put in legend.
+18:45:07 WARNING: No handles with labels found to put in legend.
+18:45:07 WARNING: No handles with labels found to put in legend.
+18:45:07 WARNING: No handles with labels found to put in legend.

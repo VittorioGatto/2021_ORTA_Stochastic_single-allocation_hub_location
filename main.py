@@ -3,7 +3,8 @@
 import json
 import logging
 import numpy as np
-from simulator.instance import Instance
+#from simulator.instance import Instance
+from simulator.instanceSampler import InstanceSampler
 from simulator.tester import Tester
 from solver.stochasticSaphlp import StochasticSaphlp
 from heuristic.simpleHeu import SimpleHeu
@@ -21,18 +22,19 @@ if __name__ == '__main__':
         filemode='w'
     )
 
-    fp = open("./etc/sim_setting.json", 'r')
-    sim_setting = json.load(fp)
-    fp.close()
+    filename = "./etc/10T"
 
-    inst = Instance(sim_setting)
+    inst = InstanceSampler(filename)
+    #fp = open("./etc/sim_setting.json", 'r')
+    #sim_setting = json.load(fp)
+    #fp.close()
+    #inst = Instance(sim_setting)
+
     dict_data = inst.get_data()
-    # print(dict_data)
 
     # Reward generation
-    n_scenarios = 10
+    n_scenarios = 5
     sam = Sampler(inst, n_scenarios)
-
 
     prb = StochasticSaphlp()
     of_exact, sol_Z, sol_X, comp_time_exact = prb.solve(dict_data, sam, n_scenarios, verbose=False)
@@ -42,8 +44,8 @@ if __name__ == '__main__':
     print("Z: \n", sol_Z)
     print("d:", "\n", inst.d)
     for s in range(n_scenarios):
-        print("O_flow in scenario:", s, "\n", sam.O_flow[:, s])
-        print("D_flow in scenario:", s, "\n", sam.D_flow[:, s])
+        # print("O_flow in scenario:", s, "\n", sam.O_flow[:, s])
+        # print("D_flow in scenario:", s, "\n", sam.D_flow[:, s])
         print("W flow in scenario:", s, "\n", sam.w[:, :, s])
         print("C in scenario:", s, "\n", sam.c[:, :, s])
         print("X in scenario:", s, "\n", sol_X[:, :, s])

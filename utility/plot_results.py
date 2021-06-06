@@ -14,7 +14,7 @@ def plot_results(Z, X, n_scenarios):
         positions = nx.spring_layout(distances, seed=10)
 
         # multiplier to enlarge the nodes
-        pi = 20
+        pi = 2
         # size of the nodes proportional to the OUTGOING FLOW
         mapped0_flow = sam.O_flow[:, s] * pi
 
