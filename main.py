@@ -44,8 +44,8 @@ if __name__ == '__main__':
     print("Z: \n", sol_Z)
     print("d:", "\n", inst.d)
     for s in range(n_scenarios):
-        # print("O_flow in scenario:", s, "\n", sam.O_flow[:, s])
-        # print("D_flow in scenario:", s, "\n", sam.D_flow[:, s])
+        print("O_flow in scenario:", s, "\n", sam.O_flow[:, s])
+        print("D_flow in scenario:", s, "\n", sam.D_flow[:, s])
         print("W flow in scenario:", s, "\n", sam.w[:, :, s])
         print("C in scenario:", s, "\n", sam.c[:, :, s])
         print("X in scenario:", s, "\n", sol_X[:, :, s])
