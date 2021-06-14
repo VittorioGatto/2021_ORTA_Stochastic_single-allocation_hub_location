@@ -22,7 +22,7 @@ if __name__ == '__main__':
         filemode='w'
     )
 
-    filename = "./etc/10T"
+    filename = "./etc/easy_instance"
 
     inst = InstanceSampler(filename)
     #fp = open("./etc/sim_setting.json", 'r')
@@ -33,7 +33,7 @@ if __name__ == '__main__':
     dict_data = inst.get_data()
 
     # Reward generation
-    n_scenarios = 5
+    n_scenarios = 1
     sam = Sampler(inst, n_scenarios)
 
     prb = StochasticSaphlp()

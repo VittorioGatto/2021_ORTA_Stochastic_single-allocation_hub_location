@@ -34,6 +34,7 @@ class Instance:
         #                     [50, 50, 50, 50,  1,  1,  1,  1,  0,  1],
         #                     [50, 50, 50, 50,  1,  1,  1,  1,  1,  0]])
 
+
         self.d = np.around(np.random.uniform(sim_setting['low_d'], sim_setting['high_d'],
                                              size=(sim_setting['n_nodes'], sim_setting['n_nodes'])))
         self.d = (self.d + self.d.T) / 2

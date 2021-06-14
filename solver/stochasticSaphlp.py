@@ -30,15 +30,15 @@ class StochasticSaphlp():
             for i in nodes:
                 for k in nodes:
                     if i != k:
-                        temp = sam.c[i, k, s] * X[i, k, s]
+                        temp += sam.c[i, k, s] * X[i, k, s]
             obj_funct += temp / n_scenarios
 
         # objective function 2nd stage - 2nd term
+        A = 0
+        B = 0
+        C = 0
+        D = 0
         for s in scenarios:
-            A = 0
-            B = 0
-            C = 0
-            D = 0
             s_term = 0
 
             for i in nodes:
@@ -49,17 +49,23 @@ class StochasticSaphlp():
                         if l != j:
                             B += dict_data['d'][i, l] * Z[i] * X[j, l, s]
 
-                    for k in nodes:
-                        if i != k:
-                            C += dict_data['d'][k, j] * X[i, k, s] * Z[j]
+                    # for k in nodes:
+                    #     if i != k:
+                    #         C += dict_data['d'][k, j] * X[i, k, s] * Z[j]
+                    #
+                    # for l in nodes:
+                    #     for k in nodes:
+                    #         if i != k:
+                    #             if j != l:
+                    #                 D += (dict_data['d'][k, l] * X[i, k, s] * X[j, l, s])
+                    s_term += dict_data['alpha'] * sam.w[i, j, s] * (A + B + C + D)
 
-                    for l in nodes:
-                        for k in nodes:
-                            if i != k:
-                                if j != l:
-                                    D += (dict_data['d'][k, l] * X[i, k, s] * X[j, l, s])
 
-                    s_term = dict_data['alpha'] * sam.w[i, j, s] * (A + B + C + D)
+                    A = 0
+                    B = 0
+                    C = 0
+                    D = 0
+
             obj_funct += s_term / n_scenarios
 
         model.setObjective(obj_funct, GRB.MINIMIZE)
@@ -96,7 +102,7 @@ class StochasticSaphlp():
         else:
             model.setParam('OutputFlag', 0)
         model.setParam('LogFile', './logs/gurobi.log')
-        # model.write("./logs/model.lp")
+        model.write("./logs/model.lp")
 
         start = time.time()
         model.optimize()
