@@ -36,25 +36,17 @@ class SimpleHeu():
 
             for i in range(nodes):
                 p.append(((sam.O_flow[i, s] + sam.D_flow[i, s]) / tot_flow[s]) * (1 - pf[i]/tot_pf))
-                thresh = np.random.rand()
-                if p[i] >= thresh:
-                    sol_z[i] = 1
 
-        # sol_x = [0] * dict_data['n_items']
-        # of = -1
-        #
-        # start = time.time()
-        # ratio = [0] * dict_data['n_items']
-        # for i in range(dict_data['n_items']):
-        #     ratio[i] = dict_data['profits'][i] / dict_data['sizes'][i]
-        # sorted_pos = [ratio.index(x) for x in sorted(ratio)]
-        # sorted_pos.reverse()
-        # cap_tmp = 0
-        # for i, item in enumerate(sorted_pos):
-        #     cap_tmp += dict_data['sizes'][item]
-        #     if cap_tmp > dict_data['max_size']:
-        #         break
-        #     sol_x[item] = 1
+
+            for i in range(nodes):
+                    thresh = np.random.rand()
+
+                    if p[i] >= thresh:
+                        sol_z[i] = 1
+            print("probabiliti ", s)
+            print(p)
+            p.clear()
+
 
         end = time.time()
 

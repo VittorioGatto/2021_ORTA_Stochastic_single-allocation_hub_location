@@ -22,7 +22,7 @@ if __name__ == '__main__':
         filemode='w'
     )
 
-    filename = "./etc/easy_instance"
+    filename = "./etc/10L"
 
     inst = InstanceSampler(filename)
     #fp = open("./etc/sim_setting.json", 'r')
@@ -33,7 +33,7 @@ if __name__ == '__main__':
     dict_data = inst.get_data()
 
     # Reward generation
-    n_scenarios = 1
+    n_scenarios = 5
     sam = Sampler(inst, n_scenarios)
 
     prb = StochasticSaphlp()
@@ -50,8 +50,6 @@ if __name__ == '__main__':
         print("C in scenario:", s, "\n", sam.c[:, :, s])
         print("X in scenario:", s, "\n", sol_X[:, :, s])
     print("Computational time", comp_time_exact)
-
-    plot_results(inst, sam, sol_Z, sol_X, n_scenarios)
 
     # COMPARISON:
     # test = Tester()
@@ -90,6 +88,8 @@ if __name__ == '__main__':
 
     print("Heuristic solution")
     print(of_heu, sol_heu, comp_time_heu)
+
+    plot_results(inst, sam, sol_Z, sol_X, n_scenarios)
 
     # # printing results of a file
     # file_output = open("./results/exp_general_table.csv", "w")

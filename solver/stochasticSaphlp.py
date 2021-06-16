@@ -49,16 +49,18 @@ class StochasticSaphlp():
                         if l != j:
                             B += dict_data['d'][i, l] * Z[i] * X[j, l, s]
 
-                    # for k in nodes:
-                    #     if i != k:
-                    #         C += dict_data['d'][k, j] * X[i, k, s] * Z[j]
-                    #
-                    # for l in nodes:
-                    #     for k in nodes:
-                    #         if i != k:
-                    #             if j != l:
-                    #                 D += (dict_data['d'][k, l] * X[i, k, s] * X[j, l, s])
+                    for k in nodes:
+                        if i != k:
+                            C += dict_data['d'][k, j] * X[i, k, s] * Z[j]
+
+                    for l in nodes:
+                        for k in nodes:
+                            if i != k:
+                                if j != l:
+                                    D += (dict_data['d'][k, l] * X[i, k, s] * X[j, l, s])
                     s_term += dict_data['alpha'] * sam.w[i, j, s] * (A + B + C + D)
+
+
 
 
                     A = 0

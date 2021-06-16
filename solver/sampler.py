@@ -27,6 +27,7 @@ class Sampler:
 
 
 
+
         # O_flow is out-coming flow of the node defined like the sum of the column of w matrix
         self.O_flow = np.zeros((np.size(self.w, 0), np.size(self.w, 2)))
         for s in range(n_scenarios):
