@@ -11,7 +11,7 @@ from heuristic.simpleHeu import SimpleHeu
 from solver.sampler import Sampler
 from utility.plot_results import plot_results
 
-np.random.seed(0)
+np.random.seed(5)
 
 if __name__ == '__main__':
     log_name = "./logs/main.log"
@@ -38,17 +38,18 @@ if __name__ == '__main__':
 
     prb = StochasticSaphlp()
     of_exact, sol_Z, sol_X, comp_time_exact = prb.solve(dict_data, sam, n_scenarios, verbose=False)
+    plot_results(inst, sam, sol_Z, sol_X, n_scenarios)
     print("Solution with GUROBI")
     print("Obj funct solution:  ", of_exact)
     print("F: \n", inst.f)
     print("Z: \n", sol_Z)
     print("d:", "\n", inst.d)
-    for s in range(n_scenarios):
-        print("O_flow in scenario:", s, "\n", sam.O_flow[:, s])
-        print("D_flow in scenario:", s, "\n", sam.D_flow[:, s])
-        print("W flow in scenario:", s, "\n", sam.w[:, :, s])
-        print("C in scenario:", s, "\n", sam.c[:, :, s])
-        print("X in scenario:", s, "\n", sol_X[:, :, s])
+    #for s in range(n_scenarios):
+    #     print("O_flow in scenario:", s, "\n", sam.O_flow[:, s])
+    #     print("D_flow in scenario:", s, "\n", sam.D_flow[:, s])
+    #     print("W flow in scenario:", s, "\n", sam.w[:, :, s])
+    #     print("C in scenario:", s, "\n", sam.c[:, :, s])
+    #     print("X in scenario:", s, "\n", sol_X[:, :, s])
     print("Computational time", comp_time_exact)
 
     # COMPARISON:
@@ -84,12 +85,13 @@ if __name__ == '__main__':
     # heuristic solution
 
     heu = SimpleHeu()
-    of_heu, sol_heu, comp_time_heu = heu.solve(dict_data, sam, n_scenarios)
+    of_heu, sol_heu_z, sol_heu_x, comp_time_heu = heu.solve(dict_data, sam, n_scenarios)
 
     print("Heuristic solution")
-    print(of_heu, sol_heu, comp_time_heu)
+    print(of_heu, sol_heu_z, comp_time_heu)
+    plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
 
-    plot_results(inst, sam, sol_Z, sol_X, n_scenarios)
+
 
     # # printing results of a file
     # file_output = open("./results/exp_general_table.csv", "w")

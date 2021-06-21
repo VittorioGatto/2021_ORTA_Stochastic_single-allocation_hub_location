@@ -12,26 +12,16 @@ class Tester():
     def __init__(self):
         pass
 
-    def compare_sols_lst(
-        self, inst, sampler, sols, labels, n_scenarios
-    ):
+    def compare_sols_lst(self, inst, sampler, sols, labels, n_scenarios):
         ans_dict = {}
-        reward = sampler.sample_stoch(
-            inst,
-            n_scenarios=n_scenarios
-        )
+        reward = sampler.sample_stoch(inst, n_scenarios=n_scenarios)
         for j in range(len(sols)):
-            profit_raw_data = self.solve_second_stages(
-                inst, sols[j],
-                n_scenarios, reward
-            )
+            profit_raw_data = self.solve_second_stages(inst, sols[j], n_scenarios, reward)
             ans_dict[labels[j]] = profit_raw_data
 
         return ans_dict
 
-    def solve_second_stages(
-        self, inst, sol, n_scenarios, reward
-    ):
+    def solve_second_stages(self, inst, sol, n_scenarios, reward):
         ans = []
         obj_fs = 0
         for i in range(inst.n_items):

@@ -60,9 +60,6 @@ class StochasticSaphlp():
                                     D += (dict_data['d'][k, l] * X[i, k, s] * X[j, l, s])
                     s_term += dict_data['alpha'] * sam.w[i, j, s] * (A + B + C + D)
 
-
-
-
                     A = 0
                     B = 0
                     C = 0
@@ -86,13 +83,7 @@ class StochasticSaphlp():
             for i in nodes:
                 for k in nodes:
                     if k != i:
-                        model.addConstr(X[i, k, s] <= Z[k], f"nodes_no connected{i,k,s}")
-
-
-        # sum_constr = 0
-        # for i in nodes:
-        #     sum_constr += Z[i]
-        # model.addConstr(sum_constr >=2 )
+                        model.addConstr(X[i, k, s] <= Z[k], f"nodes_no connected{i, k, s}")
 
         model.update()
         if gap:

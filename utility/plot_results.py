@@ -2,6 +2,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
+
 def plot_results(inst, sam, Z, X, n_scenarios):
     for s in range(n_scenarios):
 
@@ -19,7 +20,7 @@ def plot_results(inst, sam, Z, X, n_scenarios):
         for i in range(inst.n_nodes):
             for j in range(inst.n_nodes):
                 if i != j:
-                    sol[i, j] = sol[i, j]*(1/inst.d[i, j])
+                    sol[i, j] = sol[i, j] * (1 / inst.d[i, j])
 
         net = nx.from_numpy_matrix(sol)
 
