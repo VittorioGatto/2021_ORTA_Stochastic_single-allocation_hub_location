@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import json
 import logging
 import numpy as np
-#from simulator.instance import Instance
 from simulator.instanceSampler import InstanceSampler
 from simulator.tester import Tester
 from solver.stochasticSaphlp import StochasticSaphlp
@@ -22,7 +20,7 @@ if __name__ == '__main__':
         filemode='w'
     )
 
-    filename = "./etc/10L"
+    filename = "./etc/20L"
 
     inst = InstanceSampler(filename)
     #fp = open("./etc/sim_setting.json", 'r')
@@ -39,12 +37,12 @@ if __name__ == '__main__':
     prb = StochasticSaphlp()
     of_exact, sol_Z, sol_X, comp_time_exact = prb.solve(dict_data, sam, n_scenarios, verbose=False)
     plot_results(inst, sam, sol_Z, sol_X, n_scenarios)
-    print("Solution with GUROBI")
+    print("------ Solution with GUROBI ------")
     print("Obj funct solution:  ", of_exact)
-    print("F: \n", inst.f)
-    print("Z: \n", sol_Z)
-    print("d:", "\n", inst.d)
-    #for s in range(n_scenarios):
+    #print("F: ", inst.f)
+    print("Z: ", sol_Z)
+    # print("d:", "\n", inst.d)
+    # for s in range(n_scenarios):
     #     print("O_flow in scenario:", s, "\n", sam.O_flow[:, s])
     #     print("D_flow in scenario:", s, "\n", sam.D_flow[:, s])
     #     print("W flow in scenario:", s, "\n", sam.w[:, :, s])
@@ -87,8 +85,13 @@ if __name__ == '__main__':
     heu = SimpleHeu()
     of_heu, sol_heu_z, sol_heu_x, comp_time_heu = heu.solve(dict_data, sam, n_scenarios)
 
-    print("Heuristic solution")
-    print(of_heu, sol_heu_z, comp_time_heu)
+    print("------ Heuristic solution ------")
+    print("Obj funct solution:  ", of_heu)
+    print("Z: ", sol_heu_z)
+
+    print("------ Comparison ------")
+    print("Difference of objective function: ", of_heu - of_exact)
+    print("The heuristic is less efficient than GUROBI solution of: ", (1 - (of_exact/of_heu))*100, "%")
     plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
 
 

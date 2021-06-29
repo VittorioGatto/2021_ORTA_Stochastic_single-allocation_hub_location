@@ -22,6 +22,24 @@ class SimpleHeu():
         tot = 0
         tot_flow = []
 
+        # for s in range(n_scenarios):
+        #     for i in range(nodes):
+        #         tot += sam.O_flow[i, s] + sam.D_flow[i, s]
+        #     tot_flow.append(tot)
+        #
+        #     #summation of all the penalty functions
+        #     tot_pf = 0
+        #
+        #     for i in range(nodes):
+        #         #penalty function for each node i
+        #         pf = [0] * nodes
+        #         for j in range(nodes):
+        #             pf[i] += d[i, j] + d[j, i]
+        #         tot_pf += pf[i]
+        #
+        #     for i in range(nodes):
+        #         p.append(((sam.O_flow[i, s] + sam.D_flow[i, s]) / tot_flow[s]) * (1 - pf[i]/tot_pf))
+
         for s in range(n_scenarios):
             for i in range(nodes):
                 tot += sam.O_flow[i, s] + sam.D_flow[i, s]
@@ -37,8 +55,11 @@ class SimpleHeu():
                     pf[i] += d[i, j] + d[j, i]
                 tot_pf += pf[i]
 
+            cost_row = sum(c[:, :, s], 1)
+            cost_row_tot = sum(cost_row)
             for i in range(nodes):
-                p.append(((sam.O_flow[i, s] + sam.D_flow[i, s]) / tot_flow[s]) * (1 - pf[i]/tot_pf))
+                p.append((1 - f[i] / sum(f)) * ((sam.O_flow[i, s] + sam.D_flow[i, s]) / tot_flow[s]) * (1 - cost_row[i] / cost_row_tot) * (1 - pf[i] / tot_pf))
+
 
             avg_prob = np.mean(p)
 
@@ -48,7 +69,6 @@ class SimpleHeu():
 
             for i in range(nodes):
                     #thresh = np.random.rand()
-
                     if tot_cost[i] < avg_cost:
                         if p[i] > avg_prob:
                             sol_z[i] = 1
