@@ -20,7 +20,7 @@ if __name__ == '__main__':
         filemode='w'
     )
 
-    filename = "./etc/20L"
+    filename = "./etc/10T"
 
     inst = InstanceSampler(filename)
     #fp = open("./etc/sim_setting.json", 'r')
@@ -88,6 +88,7 @@ if __name__ == '__main__':
     print("------ Heuristic solution ------")
     print("Obj funct solution:  ", of_heu)
     print("Z: ", sol_heu_z)
+    print("Computational time: ", comp_time_heu)
 
     print("------ Comparison ------")
     print("Difference of objective function: ", of_heu - of_exact)
