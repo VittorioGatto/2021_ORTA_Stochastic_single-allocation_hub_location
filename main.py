@@ -6,6 +6,8 @@ from simulator.instanceSampler import InstanceSampler
 from simulator.tester import Tester
 from solver.stochasticSaphlp import StochasticSaphlp
 from heuristic.simpleHeu import SimpleHeu
+from heuristic.heuNew import HeuNew
+from heuristic.heuNew2 import HeuNew2
 from solver.sampler import Sampler
 from utility.plot_results import plot_results
 
@@ -20,7 +22,7 @@ if __name__ == '__main__':
         filemode='w'
     )
 
-    filename = "./etc/10T"
+    filename = "./etc/20T"
 
     inst = InstanceSampler(filename)
     #fp = open("./etc/sim_setting.json", 'r')
@@ -41,15 +43,9 @@ if __name__ == '__main__':
     print("Obj funct solution:  ", of_exact)
     #print("F: ", inst.f)
     print("Z: ", sol_Z)
-    # print("d:", "\n", inst.d)
-    # for s in range(n_scenarios):
-    #     print("O_flow in scenario:", s, "\n", sam.O_flow[:, s])
-    #     print("D_flow in scenario:", s, "\n", sam.D_flow[:, s])
-    #     print("W flow in scenario:", s, "\n", sam.w[:, :, s])
-    #     print("C in scenario:", s, "\n", sam.c[:, :, s])
-    #     print("X in scenario:", s, "\n", sol_X[:, :, s])
     print("Computational time", comp_time_exact)
-
+    print("\n")
+    print("\n")
     # COMPARISON:
     # test = Tester()
     # n_scenarios = 1000
@@ -80,12 +76,12 @@ if __name__ == '__main__':
     #     "profit", "occurencies"
     # )
 
-    # heuristic solution
+    # heuristic solution one
 
     heu = SimpleHeu()
     of_heu, sol_heu_z, sol_heu_x, comp_time_heu = heu.solve(dict_data, sam, n_scenarios)
 
-    print("------ Heuristic solution ------")
+    print("------ Heuristic solution one ------")
     print("Obj funct solution:  ", of_heu)
     print("Z: ", sol_heu_z)
     print("Computational time: ", comp_time_heu)
@@ -94,7 +90,40 @@ if __name__ == '__main__':
     print("Difference of objective function: ", of_heu - of_exact)
     print("The heuristic is less efficient than GUROBI solution of: ", (1 - (of_exact/of_heu))*100, "%")
     plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
+    print("\n")
+    print("\n")
 
+    # heuristic solution second
+
+    heu1 = HeuNew()
+    of_heu, sol_heu_z, sol_heu_x, comp_time_heu = heu1.solve(dict_data, sam, n_scenarios)
+
+    print("------ Heuristic solution second ------")
+    print("Obj funct solution:  ", of_heu)
+    print("Z: ", sol_heu_z)
+    print("Computational time: ", comp_time_heu)
+
+    print("------ Comparison ------")
+    print("Difference of objective function: ", of_heu - of_exact)
+    print("The heuristic is less efficient than GUROBI solution of: ", (1 - (of_exact/of_heu))*100, "%")
+    plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
+    print("\n")
+    print("\n")
+
+    # heuristic solution third
+
+    heu2 = HeuNew2()
+    of_heu, sol_heu_z, sol_heu_x, comp_time_heu = heu2.solve(dict_data, sam, n_scenarios)
+
+    print("------ Heuristic solution third ------")
+    print("Obj funct solution:  ", of_heu)
+    print("Z: ", sol_heu_z)
+    print("Computational time: ", comp_time_heu)
+
+    print("------ Comparison ------")
+    print("Difference of objective function: ", of_heu - of_exact)
+    print("The heuristic is less efficient than GUROBI solution of: ", (1 - (of_exact / of_heu)) * 100, "%")
+    plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
 
 
     # # printing results of a file
