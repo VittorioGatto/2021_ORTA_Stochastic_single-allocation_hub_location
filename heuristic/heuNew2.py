@@ -50,8 +50,10 @@ class HeuNew2():
         # Evaluation of Heuristic objective function to compare with GUROBI objective function
         of_old = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z_old, sol_x_old, sam.c, sam.w)
 
+        w = nodes
 
-        for w in [2, 3, 4]:
+        # we try starting from tot number of nodes and decrease halving by 2
+        while w > 0:
 
             sol_x = np.zeros((nodes, nodes, n_scenarios))
             sol_z = [0] * nodes

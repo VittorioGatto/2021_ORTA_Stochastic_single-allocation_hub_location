@@ -21,8 +21,8 @@ if __name__ == '__main__':
         level=logging.INFO, datefmt="%H:%M:%S",
         filemode='w'
     )
-
-    filename = "./etc/20T"
+    # to select the number of nodes change the xx in ./etc/xx below
+    filename = "./etc/10T"
 
     inst = InstanceSampler(filename)
     #fp = open("./etc/sim_setting.json", 'r')
