@@ -53,23 +53,25 @@ In order write good code you need a good editor. The best one that I recommend a
 
 In the project we consider the following simple problem:
 $$
-\max \sum_{i \in \mathcal{I}} c_i x_i + \sum_{s\in \mathcal{S}} p_s \big[\sum_{i \in I} q_i^s y_i^s \big]
+min \sum_{k \in N} f_{k}z_{k} + \sum_{s \in S_{w}} p_{s} \sum_{\substack{i,k \in N \\ i \neq k}} c_{ik}^{s}x_{ik}^{s} + \sum_{s \in S_{w}} p_{s} \sum_{i,j \in N} \alpha w_{ij}^{s}\bigg(d_{ij}z_{i}z_{j} + \sum_{\substack{l \in N \\ l \neq j}} d_{il}z_{i}x_{jl}^{s} + \sum_{\substack{k \in N \\ i \neq k}} d_{kj}x_{ik}^{s}z_{j} + \sum_{\substack{k, l \in N \\ i \neq k \\ j \neq l}} d_{kl}x_{ik}^{s}x_{jl}^{s}\bigg)
+$$
+where \emph{c\textsubscript{ij}\textsuperscript{s} = d\textsubscript{ik} ($\chi$ O\textsubscript{i}\textsuperscript{s} + $\delta$ D\textsubscript{i}\textsuperscript{s}) }
 $$
 subject to:
 $$
-\sum_{i\in \mathcal{I}} w_i x_i \leq W
+ \quad \sum_{\substack{k \in N \\ i \neq k }} x_{ij}^{s} = 1 - z_{i} \quad \quad i \in N,   s \in S_{w}
 $$
 
 $$
-\sum_{i\in \mathcal{I}} v_i y_i^s \leq W \ \ \ \forall\ s\ \in\ \mathcal{S}
+x_{ik}^{s} \leq z_{k} \quad \quad i,k \in N, i \neq k,  s \in S_{w}
 $$
 
 $$
-y_i^s \leq x_i \ \ \ \forall\ s\ \in\ \mathcal{S}
+z_{i} \in \{0,1\} \quad \forall i \in N
 $$
 
 $$
-x_i, y_i \in \{0, 1\}\ \ \ \forall\ i \in \mathcal{I}
+ z_{ik}^{s} \in \{0,1\} \quad \forall i \in N, s \in S_{w}
 $$
 
 
