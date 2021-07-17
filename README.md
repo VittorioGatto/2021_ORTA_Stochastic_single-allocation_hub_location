@@ -21,7 +21,7 @@ pip3 install <package name>
 ~~~
 e.g., 
 ~~~
-pip3 install pulp
+pip3 install networkx
 ~~~
 For windows is suggest to use conda.
 ~~~
