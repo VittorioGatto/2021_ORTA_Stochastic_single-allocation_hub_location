@@ -1,6 +1,6 @@
 # Project Template
 
-In this file, we give you some general guideline and advices for the project. You need two components:
+In this file, we give you some general guideline and advices for this project. You need two components:
 
 1. Python 3.6
 1. gurobi
@@ -30,11 +30,15 @@ conda install -c conda-forge pulp
 
 
 ## Run the code:
-Run the code by writing in the terminal
+Run the main code containing the **gurobi** solution and the heuristic(s) by writing in the terminal
 ```
 python3 main.py
 ```
-and enjoy...
+
+Run the code to get the statistics regarding the **gurobi** solution and the heuristic(s) by writing in the terminal
+``` 
+python3 main2.py
+```
 
 
 ## Text Editor
