@@ -7,7 +7,7 @@ In this file, we give you some general guideline and advices for the project. Yo
 
 ## Python
 
-Linux users should have python already installed in their PC. For the other users I strongly recomment to install **Anaconda** and to use its terminal for installing new packages. You can find details [here](https://www.anaconda.com/distribution/) and [there](https://www.anaconda.com/distribution/#download-section). 
+Linux users should have python already installed in their PC. For the other users it is strongly recommended to install **Anaconda** and to use its terminal for installing new packages. You can find details [here](https://www.anaconda.com/distribution/) and [there](https://www.anaconda.com/distribution/#download-section). 
 
 
 ## gurobi
@@ -15,7 +15,7 @@ gurobi is a commercial software. See [here](https://www.gurobi.com/)
 
 
 ## Python packages:
-Probably you will need to install several packages (e.g., pulp, numpy, etc). In linux my suggestion is to use pip
+Probably you will need to install several packages (e.g., pulp, numpy, networkx, matplotlib, etc). In linux my suggestion is to use pip
 ~~~
 pip3 install <package name>
 ~~~
