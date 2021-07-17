@@ -48,7 +48,7 @@ class HeuNew2():
             sol_x_old = ev_x(nodes, d, sol_z_old, sol_x_old, s)
 
         # Evaluation of Heuristic objective function to compare with GUROBI objective function
-        of_old = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z_old, sol_x_old, sam.c, sam.w)
+        of_old_v, of_old = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z_old, sol_x_old, sam.c, sam.w)
 
         w = nodes
 
@@ -65,11 +65,11 @@ class HeuNew2():
                 sol_x = ev_x(nodes, d, sol_z, sol_x, s)
 
             # Evaluation of Heuristic objective function to compare with GUROBI objective function
-            of = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z, sol_x, sam.c, sam.w)
-
+            of_v, of = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z, sol_x, sam.c, sam.w)
 
             if of < of_old:
                 of_old = of
+                of_old_v = of_v
                 sol_z_old = sol_z
                 sol_x_old = sol_x
 
@@ -77,4 +77,4 @@ class HeuNew2():
 
         comp_time = end - start
 
-        return of_old, sol_z_old, sol_x_old, comp_time
+        return of_old, of_old_v, sol_z_old, sol_x_old, comp_time

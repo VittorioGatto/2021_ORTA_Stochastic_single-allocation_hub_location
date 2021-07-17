@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+
+import json
 import logging
 import numpy as np
 from simulator.instanceSampler import InstanceSampler
-from simulator.tester import Tester
+from simulator.instance import Instance
 from solver.stochasticSaphlp import StochasticSaphlp
 from heuristic.simpleHeu import SimpleHeu
 from heuristic.heuNew import HeuNew
@@ -11,7 +13,7 @@ from heuristic.heuNew2 import HeuNew2
 from solver.sampler import Sampler
 from utility.plot_results import plot_results
 
-np.random.seed(5)
+#np.random.seed(5)
 
 if __name__ == '__main__':
     log_name = "./logs/main.log"
@@ -25,10 +27,11 @@ if __name__ == '__main__':
     filename = "./etc/10T"
 
     inst = InstanceSampler(filename)
-    #fp = open("./etc/sim_setting.json", 'r')
-    #sim_setting = json.load(fp)
-    #fp.close()
-    #inst = Instance(sim_setting)
+
+    # fp = open("./etc/sim_setting.json", 'r')
+    # sim_setting = json.load(fp)
+    # fp.close()
+    # inst = Instance(sim_setting)
 
     dict_data = inst.get_data()
 
@@ -79,7 +82,7 @@ if __name__ == '__main__':
     # heuristic solution one
 
     heu = SimpleHeu()
-    of_heu, sol_heu_z, sol_heu_x, comp_time_heu = heu.solve(dict_data, sam, n_scenarios)
+    of_heu, of_hev_v, sol_heu_z, sol_heu_x, comp_time_heu = heu.solve(dict_data, sam, n_scenarios)
 
     print("------ Heuristic solution one ------")
     print("Obj funct solution:  ", of_heu)
@@ -96,7 +99,7 @@ if __name__ == '__main__':
     # heuristic solution second
 
     heu1 = HeuNew()
-    of_heu, sol_heu_z, sol_heu_x, comp_time_heu = heu1.solve(dict_data, sam, n_scenarios)
+    of_heu, of_hev_v, sol_heu_z, sol_heu_x, comp_time_heu = heu1.solve(dict_data, sam, n_scenarios)
 
     print("------ Heuristic solution second ------")
     print("Obj funct solution:  ", of_heu)
@@ -113,7 +116,7 @@ if __name__ == '__main__':
     # heuristic solution third
 
     heu2 = HeuNew2()
-    of_heu, sol_heu_z, sol_heu_x, comp_time_heu = heu2.solve(dict_data, sam, n_scenarios)
+    of_heu, of_hev_v, sol_heu_z, sol_heu_x, comp_time_heu = heu2.solve(dict_data, sam, n_scenarios)
 
     print("------ Heuristic solution third ------")
     print("Obj funct solution:  ", of_heu)

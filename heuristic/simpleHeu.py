@@ -64,10 +64,10 @@ class SimpleHeu():
 
 
         # Evaluation of Heuristic objective function to compare with GUROBI objective function
-        of = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z, sol_x, sam.c, sam.w)
+        of_v, of = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z, sol_x, sam.c, sam.w)
 
         end = time.time()
 
         comp_time = end - start
 
-        return of, sol_z, sol_x, comp_time
+        return of, of_v, sol_z, sol_x, comp_time
