@@ -60,9 +60,9 @@ $$
 where: \emph{c\textsubscript{ij}\textsuperscript{s} = d\textsubscript{ik} ($\chi$ O\textsubscript{i}\textsuperscript{s} + $\delta$ D\textsubscript{i}\textsuperscript{s}) }
 $$
 
-$$
+
 subject to:
-$$
+
 
 $$
  \quad \sum_{\substack{k \in N \\ i \neq k }} x_{ij}^{s} = 1 - z_{i} \quad \quad i \in N,   s \in S_{w}
