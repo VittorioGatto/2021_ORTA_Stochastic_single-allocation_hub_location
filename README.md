@@ -52,33 +52,30 @@ In order write good code you need a good editor. The best one that I recommend a
 ## Project
 
 In the project we consider the following simple problem:
-$$
-min \sum_{k \in N} f_{k}z_{k} + \sum_{s \in S_{w}} p_{s} \sum_{\substack{i,k \in N \\ i \neq k}} c_{ik}^{s}x_{ik}^{s} + \sum_{s \in S_{w}} p_{s} \sum_{i,j \in N} \alpha w_{ij}^{s}\bigg(d_{ij}z_{i}z_{j} + \sum_{\substack{l \in N \\ l \neq j}} d_{il}z_{i}x_{jl}^{s} + \sum_{\substack{k \in N \\ i \neq k}} d_{kj}x_{ik}^{s}z_{j} + \sum_{\substack{k, l \in N \\ i \neq k \\ j \neq l}} d_{kl}x_{ik}^{s}x_{jl}^{s}\bigg)
-$$
 
-$$
-where: \emph{c\textsubscript{ij}\textsuperscript{s} = d\textsubscript{ik} ($\chi$ O\textsubscript{i}\textsuperscript{s} + $\delta$ D\textsubscript{i}\textsuperscript{s}) }
-$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=min&space;\sum_{k&space;\in&space;N}&space;f_{k}z_{k}&space;&plus;&space;\sum_{s&space;\in&space;S_{w}}&space;p_{s}&space;\sum_{\substack{i,k&space;\in&space;N&space;\\&space;i&space;\neq&space;k}}&space;c_{ik}^{s}x_{ik}^{s}&space;&plus;&space;\sum_{s&space;\in&space;S_{w}}&space;p_{s}&space;\sum_{i,j&space;\in&space;N}&space;\alpha&space;w_{ij}^{s}\bigg(d_{ij}z_{i}z_{j}&space;&plus;&space;\sum_{\substack{l&space;\in&space;N&space;\\&space;l&space;\neq&space;j}}&space;d_{il}z_{i}x_{jl}^{s}&space;&plus;&space;\sum_{\substack{k&space;\in&space;N&space;\\&space;i&space;\neq&space;k}}&space;d_{kj}x_{ik}^{s}z_{j}&space;&plus;&space;\sum_{\substack{k,&space;l&space;\in&space;N&space;\\&space;i&space;\neq&space;k&space;\\&space;j&space;\neq&space;l}}&space;d_{kl}x_{ik}^{s}x_{jl}^{s}\bigg)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?min&space;\sum_{k&space;\in&space;N}&space;f_{k}z_{k}&space;&plus;&space;\sum_{s&space;\in&space;S_{w}}&space;p_{s}&space;\sum_{\substack{i,k&space;\in&space;N&space;\\&space;i&space;\neq&space;k}}&space;c_{ik}^{s}x_{ik}^{s}&space;&plus;&space;\sum_{s&space;\in&space;S_{w}}&space;p_{s}&space;\sum_{i,j&space;\in&space;N}&space;\alpha&space;w_{ij}^{s}\bigg(d_{ij}z_{i}z_{j}&space;&plus;&space;\sum_{\substack{l&space;\in&space;N&space;\\&space;l&space;\neq&space;j}}&space;d_{il}z_{i}x_{jl}^{s}&space;&plus;&space;\sum_{\substack{k&space;\in&space;N&space;\\&space;i&space;\neq&space;k}}&space;d_{kj}x_{ik}^{s}z_{j}&space;&plus;&space;\sum_{\substack{k,&space;l&space;\in&space;N&space;\\&space;i&space;\neq&space;k&space;\\&space;j&space;\neq&space;l}}&space;d_{kl}x_{ik}^{s}x_{jl}^{s}\bigg)" title="min \sum_{k \in N} f_{k}z_{k} + \sum_{s \in S_{w}} p_{s} \sum_{\substack{i,k \in N \\ i \neq k}} c_{ik}^{s}x_{ik}^{s} + \sum_{s \in S_{w}} p_{s} \sum_{i,j \in N} \alpha w_{ij}^{s}\bigg(d_{ij}z_{i}z_{j} + \sum_{\substack{l \in N \\ l \neq j}} d_{il}z_{i}x_{jl}^{s} + \sum_{\substack{k \in N \\ i \neq k}} d_{kj}x_{ik}^{s}z_{j} + \sum_{\substack{k, l \in N \\ i \neq k \\ j \neq l}} d_{kl}x_{ik}^{s}x_{jl}^{s}\bigg)" /></a>
+
+
+
+where: 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\emph{c\textsubscript{ij}\textsuperscript{s}&space;=&space;d\textsubscript{ik}&space;($\chi$&space;O\textsubscript{i}\textsuperscript{s}&space;&plus;&space;$\delta$&space;D\textsubscript{i}\textsuperscript{s}})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\emph{c\textsubscript{ij}\textsuperscript{s}&space;=&space;d\textsubscript{ik}&space;($\chi$&space;O\textsubscript{i}\textsuperscript{s}&space;&plus;&space;$\delta$&space;D\textsubscript{i}\textsuperscript{s}})" title="\emph{c\textsubscript{ij}\textsuperscript{s} = d\textsubscript{ik} ($\chi$ O\textsubscript{i}\textsuperscript{s} + $\delta$ D\textsubscript{i}\textsuperscript{s}})" /></a>
+
 
 
 subject to:
 
 
-$$
- \quad \sum_{\substack{k \in N \\ i \neq k }} x_{ij}^{s} = 1 - z_{i} \quad \quad i \in N,   s \in S_{w}
-$$
 
-$$
-x_{ik}^{s} \leq z_{k} \quad \quad i,k \in N, i \neq k,  s \in S_{w}
-$$
+(1)   <a href="https://www.codecogs.com/eqnedit.php?latex=\quad&space;\sum_{\substack{k&space;\in&space;N&space;\\&space;i&space;\neq&space;k&space;}}&space;x_{ij}^{s}&space;=&space;1&space;-&space;z_{i}&space;\quad&space;\quad&space;i&space;\in&space;N,&space;s&space;\in&space;S_{w}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\quad&space;\sum_{\substack{k&space;\in&space;N&space;\\&space;i&space;\neq&space;k&space;}}&space;x_{ij}^{s}&space;=&space;1&space;-&space;z_{i}&space;\quad&space;\quad&space;i&space;\in&space;N,&space;s&space;\in&space;S_{w}" title="\quad \sum_{\substack{k \in N \\ i \neq k }} x_{ij}^{s} = 1 - z_{i} \quad \quad i \in N, s \in S_{w}" /></a>
 
-$$
-z_{i} \in \{0,1\} \quad \forall i \in N
-$$
 
-$$
- z_{ik}^{s} \in \{0,1\} \quad \forall i \in N, s \in S_{w}
-$$
+(2)   <a href="https://www.codecogs.com/eqnedit.php?latex=x_{ik}^{s}&space;\leq&space;z_{k}&space;\quad&space;\quad&space;i,k&space;\in&space;N,&space;i&space;\neq&space;k,&space;s&space;\in&space;S_{w}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_{ik}^{s}&space;\leq&space;z_{k}&space;\quad&space;\quad&space;i,k&space;\in&space;N,&space;i&space;\neq&space;k,&space;s&space;\in&space;S_{w}" title="x_{ik}^{s} \leq z_{k} \quad \quad i,k \in N, i \neq k, s \in S_{w}" /></a>
 
+
+(3)   <a href="https://www.codecogs.com/eqnedit.php?latex=z_{i}&space;\in&space;\{0,1\}&space;\quad&space;\forall&space;i&space;\in&space;N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z_{i}&space;\in&space;\{0,1\}&space;\quad&space;\forall&space;i&space;\in&space;N" title="z_{i} \in \{0,1\} \quad \forall i \in N" /></a>
+
+
+(4)   <a href="https://www.codecogs.com/eqnedit.php?latex=z_{ik}^{s}&space;\in&space;\{0,1\}&space;\quad&space;\forall&space;i&space;\in&space;N,&space;s&space;\in&space;S_{w}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z_{ik}^{s}&space;\in&space;\{0,1\}&space;\quad&space;\forall&space;i&space;\in&space;N,&space;s&space;\in&space;S_{w}" title="z_{ik}^{s} \in \{0,1\} \quad \forall i \in N, s \in S_{w}" /></a>
 
 
