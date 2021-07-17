@@ -15,7 +15,7 @@ gurobi is a commercial software. See [here](https://www.gurobi.com/)
 
 
 ## Python packages:
-Probably you will need to install several packages (e.g., pulp, numpy, networkx, matplotlib, etc). In linux my suggestion is to use pip
+Probably you will need to install several packages (e.g., pulp, numpy, networkx, matplotlib, etc). In linux our suggestion is to use pip
 ~~~
 pip3 install <package name>
 ~~~
