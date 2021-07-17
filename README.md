@@ -78,4 +78,16 @@ subject to:
 
 (4)   <a href="https://www.codecogs.com/eqnedit.php?latex=z_{ik}^{s}&space;\in&space;\{0,1\}&space;\quad&space;\forall&space;i&space;\in&space;N,&space;s&space;\in&space;S_{w}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z_{ik}^{s}&space;\in&space;\{0,1\}&space;\quad&space;\forall&space;i&space;\in&space;N,&space;s&space;\in&space;S_{w}" title="z_{ik}^{s} \in \{0,1\} \quad \forall i \in N, s \in S_{w}" /></a>
 
+## main.py
+
+In main.py it is possible to select which dataset conatained in the _etc_ folder we would like to solve.
+
+For instance, we can solve the dataset containing 10 nodes with fixed cost by typing:
+``` 
+(27)    filename = "./etc/10L"
+```
+
+Dataset options are: _10L; 10T; 20L; 20T; 25L; 25T; 40L; 40T; 50L; 50T_ and _easy_instance_ (6 nodes).
+
+
 
