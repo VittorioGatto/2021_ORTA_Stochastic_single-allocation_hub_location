@@ -49,7 +49,7 @@ In order write good code you need a good editor. The best one that I recommend a
 1. [Sublime Text](https://www.sublimetext.com/) free for non commercial usage;
 1. [PyCharm](https://www.jetbrains.com/pycharm/) free for students.
 
-## Project
+## Problem
 
 We consider the following **two-stage stochastic SAHLP** problem:
 
