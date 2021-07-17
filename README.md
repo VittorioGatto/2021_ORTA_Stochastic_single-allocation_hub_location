@@ -1,4 +1,4 @@
-# Project Template
+# Project: STOCHASTIC SINGLE-ALLOCATION HUB LOCATION
 
 In this file, we give you some general guideline and advices for this project. You need two components:
 
@@ -51,7 +51,7 @@ In order write good code you need a good editor. The best one that I recommend a
 
 ## Project
 
-In the project we consider the following simple problem:
+We consider the following **two-stage stochastic SAHLP** problem:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=min&space;\sum_{k&space;\in&space;N}&space;f_{k}z_{k}&space;&plus;&space;\sum_{s&space;\in&space;S_{w}}&space;p_{s}&space;\sum_{\substack{i,k&space;\in&space;N&space;\\&space;i&space;\neq&space;k}}&space;c_{ik}^{s}x_{ik}^{s}&space;&plus;&space;\sum_{s&space;\in&space;S_{w}}&space;p_{s}&space;\sum_{i,j&space;\in&space;N}&space;\alpha&space;w_{ij}^{s}\bigg(d_{ij}z_{i}z_{j}&space;&plus;&space;\sum_{\substack{l&space;\in&space;N&space;\\&space;l&space;\neq&space;j}}&space;d_{il}z_{i}x_{jl}^{s}&space;&plus;&space;\sum_{\substack{k&space;\in&space;N&space;\\&space;i&space;\neq&space;k}}&space;d_{kj}x_{ik}^{s}z_{j}&space;&plus;&space;\sum_{\substack{k,&space;l&space;\in&space;N&space;\\&space;i&space;\neq&space;k&space;\\&space;j&space;\neq&space;l}}&space;d_{kl}x_{ik}^{s}x_{jl}^{s}\bigg)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?min&space;\sum_{k&space;\in&space;N}&space;f_{k}z_{k}&space;&plus;&space;\sum_{s&space;\in&space;S_{w}}&space;p_{s}&space;\sum_{\substack{i,k&space;\in&space;N&space;\\&space;i&space;\neq&space;k}}&space;c_{ik}^{s}x_{ik}^{s}&space;&plus;&space;\sum_{s&space;\in&space;S_{w}}&space;p_{s}&space;\sum_{i,j&space;\in&space;N}&space;\alpha&space;w_{ij}^{s}\bigg(d_{ij}z_{i}z_{j}&space;&plus;&space;\sum_{\substack{l&space;\in&space;N&space;\\&space;l&space;\neq&space;j}}&space;d_{il}z_{i}x_{jl}^{s}&space;&plus;&space;\sum_{\substack{k&space;\in&space;N&space;\\&space;i&space;\neq&space;k}}&space;d_{kj}x_{ik}^{s}z_{j}&space;&plus;&space;\sum_{\substack{k,&space;l&space;\in&space;N&space;\\&space;i&space;\neq&space;k&space;\\&space;j&space;\neq&space;l}}&space;d_{kl}x_{ik}^{s}x_{jl}^{s}\bigg)" title="min \sum_{k \in N} f_{k}z_{k} + \sum_{s \in S_{w}} p_{s} \sum_{\substack{i,k \in N \\ i \neq k}} c_{ik}^{s}x_{ik}^{s} + \sum_{s \in S_{w}} p_{s} \sum_{i,j \in N} \alpha w_{ij}^{s}\bigg(d_{ij}z_{i}z_{j} + \sum_{\substack{l \in N \\ l \neq j}} d_{il}z_{i}x_{jl}^{s} + \sum_{\substack{k \in N \\ i \neq k}} d_{kj}x_{ik}^{s}z_{j} + \sum_{\substack{k, l \in N \\ i \neq k \\ j \neq l}} d_{kl}x_{ik}^{s}x_{jl}^{s}\bigg)" /></a>
 
