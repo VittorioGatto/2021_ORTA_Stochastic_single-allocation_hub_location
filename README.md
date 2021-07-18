@@ -114,7 +114,11 @@ The dataset is read from the file and is then used to compute the instances of o
 We read first the number of nodes. Each node is represented by a pair of cartesian coordinates _x_ and _y_ that will be used in order to compute the distance between the nodes, 
 the distances will be written in the matrix <a href="https://www.codecogs.com/eqnedit.php?latex=d_{ij}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_{ij}" title="d_{ij}" /></a>
 
-The flow between the nodes _i_ and _j_ is then read and stored the matrix <a href="https://www.codecogs.com/eqnedit.php?latex=w_{ij}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_{ij}" title="w_{ij}" /></a>. 
+The flow between the nodes _i_ and _j_ is then read and stored the matrix <a href="https://www.codecogs.com/eqnedit.php?latex=w_{ij}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_{ij}" title="w_{ij}" /></a>
 
 Additionnally we read _alpha_, _chi_ and _sigma_ and the fixed cost for each node.
+
+## sampler.py
+
+In  _**sampler.py**_, we use the matrix <a href="https://www.codecogs.com/eqnedit.php?latex=w_{ij}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_{ij}" title="w_{ij}" /></a> created in  _**instanceSampler.py**_ in order to generate the the matrix <a href="https://www.codecogs.com/eqnedit.php?latex=w_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_{ij}^{s}" title="w_{ij}^{s}" /></a> for each scenario by multiplying each element of the <a href="https://www.codecogs.com/eqnedit.php?latex=w_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_{ij}^{s}" title="w_{ij}^{s}" /></a> matrix by <a href="https://www.codecogs.com/eqnedit.php?latex=p_{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_{i}" title="p_{i}" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=p_{j}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_{j}" title="p_{j}" /></a>
 
