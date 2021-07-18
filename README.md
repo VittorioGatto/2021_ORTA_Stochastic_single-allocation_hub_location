@@ -137,8 +137,20 @@ First, two **gurobi** variables _X_ and _Z_ are defined where the matrix _X_ rep
 
 The objecive function is computed for every scenario and then we obtain _obj_funct_ by averaging the solution of every scenario by the total number of scenarios. After adding the constraints of the problem, the objective function is solved using **gurobi**. A log file is saved containing the results of the computations done by **gurobi**.
 
-The value of the _obj_funct_, the computational time and the solution variables _solZ_ and _SolX_ computed by **gurobi**, are returned back to _**main.py**_
+The value of the _obj_funct_, the computational time and the solution variables _solZ_ and _SolX_ computed by **gurobi** are returned back to _**main.py**_
 
 
+## simpleHeu.py 
 
+_**simpleHeu.py**_  is the first suggested heuristic for the problem.
+
+In every scenario, a penalty function _p[i]_ is computed using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
+
+Every _p[i]_ is compared to the average of the _p[]_ vector, if it is less, the node will become a hub. Then we check if there are hubs with no links, change them back to nodes and connect them to the nearest hub.
+
+After solving the vector _Z_, _**ev_x.py**_ is used to connect the non-hub nodes to the nearest hub.
+
+The values obtained are used to evaluate the heuristic objective function in order to compare it with the **gurobi** objective function.
+
+Then the value of the objective function, the computational time and the solution variables _solZ_ and _SolX_ are returned back to _**main.py**_
 
