@@ -169,6 +169,22 @@ Then the value of the objective function, the computational time and the solutio
 
 ## plot_results.py 
 
+For every solution, _**plot_results.py**_ is used to visualize the obtained results.
+
+**networkx** and **matplotlib** are used to display the results. 
+
+For every scenario, the nodes will be placed according to their distance and they will be connected according the matrix _X_
+
+Two different colors are used to differentiate nodes and hubs.
 
 
+## main2.py
+
+In _**main2.py**_ the statistics are computed for the heuristics.
+
+It is possible to select the number of scenarios over which the statistics will be generated
+
+``` 
+(13)    n_scenarios = 100
+```
 
