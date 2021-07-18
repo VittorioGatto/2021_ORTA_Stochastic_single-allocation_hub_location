@@ -98,11 +98,15 @@ It is also possible to select the number of scenarios for our problem by modifyi
 (39)    n_scenarios = 5
 ```
 
-_InstanceSampler.py_ is then used to generate the instances of our problem.
+_**instanceSampler.py**_ and _**sampler.py**_ are then used to generate the instances of our problem.
 
-_stochasticSaphlp.py_ is used to solve the objective function using **gurobi**.
+_**stochasticSaphlp.py**_ is used to solve the objective function using **gurobi**.
 
-_simpleHeu.py_; _heuNew.py_ and _heuNew2.py_  are used to solve our problem using a heuristic.
+_**simpleHeu.py**_; _**heuNew.py**_ and _**heuNew2.py**_  are used to solve our problem using a heuristic.
+
+
+## instanceSampler.py
+
 
 
 
