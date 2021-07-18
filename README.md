@@ -107,7 +107,9 @@ _**simpleHeu.py**_; _**heuNew.py**_ and _**heuNew2.py**_  are used to solve our 
 
 ## instanceSampler.py
 
-the filename selected in _**main.py**_ is passed to _**instanceSampler.py**_.
-the
+The filename selected in _**main.py**_ is passed to _**instanceSampler.py**_.
+The dataset is read from the file and is then used to compute the instances of our problem. 
+We read first the number of nodes. Each node is represented by a pair of cartesian coordinates _x_ and _y_ that will be used in order to compute the distance between the nodes, 
+the distances will be written in the matrix _d[][]_
 
 
