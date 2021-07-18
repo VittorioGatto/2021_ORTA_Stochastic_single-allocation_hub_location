@@ -162,7 +162,7 @@ Then the value of the objective function, the computational time and the solutio
 
 Like _**simpleHeu.py**_, _**newHeu.py**_ starts by computing the penalty function _p[i]_ for every scenario using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
 
-At the first loop, the 2 hubs with the lowest penalty factor are selected, the subsequent objective function will be computed. The same will be done for 3 and 4 hubs in the next loops.
+In the first loop, the 2 hubs with the lowest penalty factor are selected, the subsequent objective function will be computed. The same will be done for 3 and 4 hubs in the next loops.
 
 At the end of the loop, the lowest objective function obtained with the _sol_x_ and _sol_z_ solutions will be selected.
 
