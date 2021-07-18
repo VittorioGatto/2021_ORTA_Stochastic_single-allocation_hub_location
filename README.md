@@ -30,12 +30,12 @@ conda install -c conda-forge pulp
 
 
 ## Run the code:
-Run the main code containing the **gurobi** solution and the heuristic(s) by writing in the terminal
+Run the main code containing the **gurobi** solution and the 3 heuristics by writing in the terminal
 ```
 python3 main.py
 ```
 
-Run the code to get the statistics regarding the **gurobi** solution and the heuristic(s) by writing in the terminal
+Run the code to get the statistics regarding the **gurobi** solution and the 3 heuristics by writing in the terminal
 ``` 
 python3 main2.py
 ```
