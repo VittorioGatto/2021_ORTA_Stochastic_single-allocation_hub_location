@@ -146,6 +146,8 @@ _**simpleHeu.py**_  is the first suggested heuristic for the problem.
 
 In every scenario, a penalty factor _p[i]_ is computed using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=pf_i&space;=&space;\sum_{j}&space;d_{ij}&space;&plus;&space;d_{ji}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?pf_i&space;=&space;\sum_{j}&space;d_{ij}&space;&plus;&space;d_{ji}" title="pf_i = \sum_{j} d_{ij} + d_{ji}" /></a>
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=p_i&space;=&space;f_i&space;&plus;&space;O_{i}^{s}&space;&plus;&space;D_{i}^{s}&space;&plus;&space;\sum_{i}&space;C_{ij}^{s}&space;&plus;&space;pf_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_i&space;=&space;f_i&space;&plus;&space;O_{i}^{s}&space;&plus;&space;D_{i}^{s}&space;&plus;&space;\sum_{i}&space;C_{ij}^{s}&space;&plus;&space;pf_i" title="p_i = f_i + O_{i}^{s} + D_{i}^{s} + \sum_{i} C_{ij}^{s} + pf_i" /></a>
 
 Every _p[i]_ is compared to the average of the _p[]_ vector, if it is less, the node will become a hub. Then we check if there are hubs with no links, change them back to nodes and connect them to the nearest hub.
