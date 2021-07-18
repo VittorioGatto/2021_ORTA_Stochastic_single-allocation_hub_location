@@ -106,7 +106,7 @@ _**simpleHeu.py**_; _**heuNew.py**_ and _**heuNew2.py**_  are used to solve our 
 
  For every solution, _**main.py**_ prints the objective function value, the computational time and the vector _solZ_.  _**plot_results.py**_ will be used to draw the solutions.
 
-
+ For the heuristics, an additional comparaison value is printed which is the difference between the objective function obtained with **gurobi** and the objective function obtained with heuristics, a percentage is also displayed regarding the efficiency of the heuristic.
 
 ## instanceSampler.py
 
@@ -153,4 +153,10 @@ After solving the vector _Z_, _**ev_x.py**_ is used to connect the non-hub nodes
 **ev_obj.py** is used to evaluate the objective function using the heuristic solutions in order to compare it with the **gurobi** objective function.
 
 Then the value of the objective function, the computational time and the solution variables _solZ_ and _SolX_ are returned back to _**main.py**_
+
+## newHeu2.py 
+
+(I did not include _**newHeu.py**_ (yet?) because I am sure how it works compared to _**newHeu.py**_)
+
+
 
