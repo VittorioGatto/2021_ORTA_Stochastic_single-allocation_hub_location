@@ -104,7 +104,7 @@ _**stochasticSaphlp.py**_ is used to solve the objective function using **gurobi
 
 _**simpleHeu.py**_; _**heuNew.py**_ and _**heuNew2.py**_  are used to solve our problem using a heuristic.
 
- For every solution, _**main.py**_ prints the objective function value, computational time and the vector _solZ_. _**plot_results.py**_ will be used to draw the solutions.
+ For every solution, _**main.py**_ prints the objective function value, the computational time and the vector _solZ_.  _**plot_results.py**_ will be used to draw the solutions.
 
 
 
