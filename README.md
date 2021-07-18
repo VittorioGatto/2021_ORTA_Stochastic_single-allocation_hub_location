@@ -102,6 +102,7 @@ _InstanceSampler.py_ is then used to generate the instances of our problem.
 
 _stochasticSaphlp.py_ is used to solve the objective function using **gurobi**.
 
-_simpleHeu.py_ is used to solve our problem using a heuristic.
+_simpleHeu.py_; _heuNew.py_ and _heuNew2.py_  are used to solve our problem using a heuristic.
+
 
 
