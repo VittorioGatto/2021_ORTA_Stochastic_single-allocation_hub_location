@@ -100,7 +100,7 @@ It is also possible to select the number of scenarios for our problem by modifyi
 
 _**instanceSampler.py**_ and _**sampler.py**_ are then used to generate the instances of our problem.
 
-_**stochasticSaphlp.py**_ is used to solve the objective function using **gurobi**.
+_**stochasticSahlp.py**_ is used to solve the objective function using **gurobi**.
 
 _**simpleHeu.py**_; _**heuNew.py**_ and _**heuNew2.py**_  are used to solve our problem using a heuristic.
 
@@ -129,9 +129,9 @@ Then for each scenario we compute the outgoing flow <a href="https://www.codecog
 
 ## stochasticSaphlp.py 
 
-In _**stochasticSaphlp.py**_ the objective function is solved using **gurobi**. 
+In _**stochasticSahlp.py**_ the objective function is solved using **gurobi**. 
 
-All generated instances are passed as parameters to _**stochasticSaphlp.py**_ and are used to evaluate the objective function.
+All generated instances are passed as parameters to _**stochasticSahlp.py**_ and are used to evaluate the objective function.
 
 First, two **gurobi** variables _X_ and _Z_ are defined where the matrix _X_ represents the connections between the nodes and the vector _Z_ indicates whether a node is a hub. The numbers contained in _X_ and _Z_ can only take the values 0 or 1
 
