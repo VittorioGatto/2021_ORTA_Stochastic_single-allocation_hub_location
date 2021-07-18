@@ -106,7 +106,7 @@ _**simpleHeu.py**_; _**heuNew.py**_ and _**heuNew2.py**_  are used to solve our 
 
  For every solution, _**main.py**_ prints the objective function value, the computational time and the vector _solZ_.  _**plot_results.py**_ will be used to draw the solutions.
 
- For the heuristics, an additional comparaison value is printed which is the difference between the objective function obtained with **gurobi** and the objective function obtained with heuristics, a percentage is also displayed regarding the efficiency of the heuristic.
+ For the heuristics, an additional comparison value is printed which is the difference between the objective function obtained with **gurobi** and the objective function obtained with heuristics, a percentage is also displayed regarding the efficiency of the heuristic.
 
 ## instanceSampler.py
 
