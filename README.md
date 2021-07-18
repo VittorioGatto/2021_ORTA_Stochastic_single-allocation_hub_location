@@ -173,7 +173,7 @@ Then the value of the objective function, the computational time and the solutio
 
 Like _**simpleHeu.py**_ and _**newHeu.py**_ , _**newHeu2.py**_ starts by computing the penalty function _p[i]_ for every scenario using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
 
-Unlike _**newHeu.py**_, in _**newHeu2.py**_, all the nodes are chosen as hubs in the begining, then after every iteration the number of hubs is halfed (the hubs will be removed according to their penalty factor). The matrix _sol_x_ is deduced from _sol_z_ using  _**ev_x.py**_ . Every iteration, the objective function is computed for the obtained _sol_z_ and _sol_x_ using _**ev_obj.py**_
+Unlike _**newHeu.py**_, in _**newHeu2.py**_, all the nodes are chosen as hubs in the begining. Then after every iteration the number of hubs is halfed (the hubs will be removed according to their penalty factor). The matrix _sol_x_ is deduced from _sol_z_ using  _**ev_x.py**_ . Every iteration, the objective function is computed for the obtained _sol_z_ and _sol_x_ using _**ev_obj.py**_
 
 At the end of the loop, the lowest objective function obtained with the _sol_x_ and _sol_z_ solutions will be selected.
 
