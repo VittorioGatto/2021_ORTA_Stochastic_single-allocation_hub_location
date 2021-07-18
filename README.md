@@ -25,7 +25,7 @@ pip3 install networkx
 ~~~
 For windows is suggest to use conda.
 ~~~
-conda install -c conda-forge pulp 
+conda install -c conda-forge networkx
 ~~~
 
 
