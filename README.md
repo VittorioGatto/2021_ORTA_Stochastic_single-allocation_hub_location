@@ -150,7 +150,7 @@ Every _p[i]_ is compared to the average of the _p[]_ vector, if it is less, the 
 
 After solving the vector _Z_, _**ev_x.py**_ is used to connect the non-hub nodes to the nearest hub.
 
-The values obtained are used to evaluate the heuristic objective function in order to compare it with the **gurobi** objective function.
+**ev_obj.py** is used to evaluate the objective function using the heuristic solutions in order to compare it with the **gurobi** objective function.
 
 Then the value of the objective function, the computational time and the solution variables _solZ_ and _SolX_ are returned back to _**main.py**_
 
