@@ -106,7 +106,7 @@ _**simpleHeu.py**_; _**heuNew.py**_ and _**heuNew2.py**_  are used to solve our 
 
  For every solution, _**main.py**_ prints the objective function value, the computational time and the vector _solZ_.  _**plot_results.py**_ will be used to draw the solutions.
 
- For the heuristics, an additional comparison value is printed which is the difference between the objective function obtained with **gurobi** and the objective function obtained with heuristics, a percentage is also displayed regarding the efficiency of the heuristic.
+ For the heuristics, an additional comparison value is printed which is the difference between the objective function obtained with **gurobi** and the objective function obtained with the heuristic, a percentage is also displayed regarding the efficiency of the heuristic.
 
 ## instanceSampler.py
 
@@ -150,13 +150,20 @@ Every _p[i]_ is compared to the average of the _p[]_ vector, if it is less, the 
 
 After solving the vector _Z_, _**ev_x.py**_ is used to connect the non-hub nodes to the nearest hub.
 
-**ev_obj.py** is used to evaluate the objective function using the heuristic solutions in order to compare it with the **gurobi** objective function.
+_**ev_obj.py**_ is used to evaluate the objective function using the heuristic solutions in order to compare it with the **gurobi** objective function.
 
 Then the value of the objective function, the computational time and the solution variables _solZ_ and _SolX_ are returned back to _**main.py**_
 
 ## newHeu2.py 
 
-(I did not include _**newHeu.py**_ (yet?) because I am sure how it works compared to _**newHeu.py**_)
+(I did not include _**newHeu.py**_ (yet?) because I am sure how it works compared to _**newHeu2.py**_)
 
+Like _**simpleHeu.py**_, _**newHeu2.py**_ starts by computing the penalty function _p[i]_ for every scenario using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
+
+The hubs are then selected one by one (each time adding one more hub) according to their penalty function (starting by the lowest). The matrix _sol_x_ is deduced from _sol_z_ using  _**ev_x.py**_ . Every iteration, the objective function is computed for the obtained _sol_z_ and _sol_x_ using _**ev_obj.py**_
+
+At the end of the loop, the lowest objective function obtained with the _sol_x_ and _sol_z_ solutions will be stored.
+
+Then the value of the objective function, the computational time and the solution variables _sol_x_ and _sol_z_ are returned back to _**main.py**_
 
 
