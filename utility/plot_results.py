@@ -8,9 +8,12 @@ def plot_results(inst, sam, Z, X, n_scenarios):
 
         sol = X[:, :, s].copy()
 
-        # distances based on the d matrix in instance.py
-        distances = nx.from_numpy_matrix(inst.d)
-        positions = nx.spring_layout(distances, seed=10)
+        # # distances based on the d matrix in instance.py
+        # distances = nx.from_numpy_matrix(inst.d)
+        # positions = nx.spring_layout(distances, seed=10)
+        pos = {}
+        for i in range(inst.n_nodes):
+            pos.update({i: (inst.xcoord[i], inst.ycoord[i])})
 
         # multiplier to enlarge the nodes
         pi = 2
@@ -34,7 +37,7 @@ def plot_results(inst, sam, Z, X, n_scenarios):
         # printing of Z vector
         title = 'Plot Scenario n:' + str(s)
         plt.title(title)
-        nx.draw(net, pos=positions, node_size=mapped0_flow, node_color=color_map, with_labels=True)
+        nx.draw(net, pos=pos, node_size=mapped0_flow, node_color=color_map, with_labels=True)
         limits = plt.axis('on')  # turns on axis
         plt.tick_params(left=True, bottom=True, labelleft=True, labelbottom=True)
         plt.legend()

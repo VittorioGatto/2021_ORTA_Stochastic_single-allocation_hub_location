@@ -1,3 +1,4 @@
+# Evaluation of Heuristic objective function to compare with GUROBI objective function
 def ev_obf(nodes, f, d, n_scenarios, alpha, sol_z, sol_x, c, w):
     of_v = [0] * n_scenarios
     of = 0
@@ -6,7 +7,7 @@ def ev_obf(nodes, f, d, n_scenarios, alpha, sol_z, sol_x, c, w):
     for i in range(nodes):
         of_1 += f[i] * sol_z[i]
 
-    # objective function 2nd stage - 1st term
+    # objective function 2nd stage
     for s in range(n_scenarios):
         temp = 0
         for i in range(nodes):

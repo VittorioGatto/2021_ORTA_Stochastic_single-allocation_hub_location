@@ -2,6 +2,7 @@
 import logging
 import numpy as np
 
+#Random generation DATA
 
 class Instance:
     def __init__(self, sim_setting):

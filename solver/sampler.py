@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 import numpy as np
 
 
@@ -38,7 +39,7 @@ class Sampler:
         for s in range(n_scenarios):
             self.D_flow[:, s] = self.w[:, :, s].sum(axis=0)
 
-        # C is the variable cost of node from s to j
+        # C is the variable cost of link from s to j
         self.c = np.zeros((np.size(self.w, 0), np.size(self.w, 1), np.size(self.w, 2)))
         for s in range(n_scenarios):
             for j in range(instance.n_nodes):

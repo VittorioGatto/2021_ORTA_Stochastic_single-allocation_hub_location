@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import time
 import numpy as np
+from utility.ev_obf import ev_obf
+from utility.ev_x import ev_x
 
 
 class SimpleHeu():
@@ -65,8 +67,6 @@ class SimpleHeu():
 
         # Evaluation of Heuristic objective function to compare with GUROBI objective function
         of_v, of = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z, sol_x, sam.c, sam.w)
-
-        end = time.time()
 
         comp_time = end - start
 

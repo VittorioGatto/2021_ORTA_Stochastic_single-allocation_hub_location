@@ -73,6 +73,8 @@ class HeuNew2():
                 sol_z_old = sol_z
                 sol_x_old = sol_x
 
+            w = round(w/2)
+
         end = time.time()
 
         comp_time = end - start

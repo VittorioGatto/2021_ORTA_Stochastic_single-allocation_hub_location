@@ -18,8 +18,14 @@ class StochasticSaphlp():
         logging.info("{}".format(problem_name))
 
         model = gp.Model(problem_name)
+
+        # Z is a vector that tells us the nodes which host a hub
         Z = model.addVars(dict_data['n_nodes'], lb=0, ub=1, vtype=GRB.INTEGER, name='Z')
-        X = model.addVars(dict_data['n_nodes'], dict_data['n_nodes'], n_scenarios, lb=0, ub=1, vtype=GRB.INTEGER, name='X')
+
+        # X is a matrix which tells us which node is linked to a hub
+        # (if Xik == 1, then node i is linked to a hub in node k, if Xik == 0 then no link b\w i and k)
+        X = model.addVars(dict_data['n_nodes'], dict_data['n_nodes'], n_scenarios, lb=0, ub=1, vtype=GRB.INTEGER,
+                          name='X')
 
         # objective function 1st stage
         obj_funct = gp.quicksum(dict_data['f'][i] * Z[i] for i in nodes)
@@ -40,7 +46,6 @@ class StochasticSaphlp():
         D = 0
         for s in scenarios:
             s_term = 0
-
             for i in nodes:
                 for j in nodes:
                     A = dict_data['d'][i, j] * Z[i] * Z[j]

@@ -43,41 +43,11 @@ if __name__ == '__main__':
     of_exact, sol_Z, sol_X, comp_time_exact = prb.solve(dict_data, sam, n_scenarios, verbose=False)
     plot_results(inst, sam, sol_Z, sol_X, n_scenarios)
     print("------ Solution with GUROBI ------")
-    print("Obj funct solution:  ", of_exact)
-    #print("F: ", inst.f)
+    print("Obj funct solution:  ", round(of_exact, 2))
     print("Z: ", sol_Z)
-    print("Computational time", comp_time_exact)
+    print("Computational time", round(comp_time_exact, 2), "s")
     print("\n")
     print("\n")
-    # COMPARISON:
-    # test = Tester()
-    # n_scenarios = 1000
-    # reward_1 = sam.sample_stoch(
-    #     inst,
-    #     n_scenarios=n_scenarios
-    # )
-    # ris1 = test.solve_second_stages(
-    #     inst,
-    #     sol_exact,
-    #     n_scenarios,
-    #     reward_1
-    # )
-    # reward_2 = sam.sample_stoch(
-    #     inst,
-    #     n_scenarios=n_scenarios
-    # )
-    # ris2 = test.solve_second_stages(
-    #     inst,
-    #     sol_exact,
-    #     n_scenarios,
-    #     reward_2
-    # )
-    # plot_comparison_hist(
-    #     [ris1, ris2],
-    #     ["run1", "run2"],
-    #     ['red', 'blue'],
-    #     "profit", "occurencies"
-    # )
 
     # heuristic solution one
 
@@ -85,47 +55,44 @@ if __name__ == '__main__':
     of_heu, of_hev_v, sol_heu_z, sol_heu_x, comp_time_heu = heu.solve(dict_data, sam, n_scenarios)
 
     print("------ Heuristic solution one ------")
-    print("Obj funct solution:  ", of_heu)
+    print("Obj funct solution:  ", round(of_heu, 2))
     print("Z: ", sol_heu_z)
-    print("Computational time: ", comp_time_heu)
+    print("Computational time: ", round(comp_time_heu, 2), "s")
 
     print("------ Comparison ------")
-    print("Difference of objective function: ", of_heu - of_exact)
-    print("The heuristic is less efficient than GUROBI solution of: ", (1 - (of_exact/of_heu))*100, "%")
+    print("The heuristic is less efficient than GUROBI solution of: ", round((1 - (of_exact/of_heu))*100, 2), "%")
     plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
     print("\n")
     print("\n")
 
-    # heuristic solution second
+    # heuristic solution two
 
     heu1 = HeuNew()
     of_heu, of_hev_v, sol_heu_z, sol_heu_x, comp_time_heu = heu1.solve(dict_data, sam, n_scenarios)
 
     print("------ Heuristic solution second ------")
-    print("Obj funct solution:  ", of_heu)
+    print("Obj funct solution:  ", round(of_heu, 2))
     print("Z: ", sol_heu_z)
-    print("Computational time: ", comp_time_heu)
+    print("Computational time: ", round(comp_time_heu, 2), "s")
 
     print("------ Comparison ------")
-    print("Difference of objective function: ", of_heu - of_exact)
-    print("The heuristic is less efficient than GUROBI solution of: ", (1 - (of_exact/of_heu))*100, "%")
+    print("The heuristic is less efficient than GUROBI solution of: ", round((1 - (of_exact/of_heu))*100, 2), "%")
     plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
     print("\n")
     print("\n")
 
-    # heuristic solution third
+    # heuristic solution three
 
     heu2 = HeuNew2()
     of_heu, of_hev_v, sol_heu_z, sol_heu_x, comp_time_heu = heu2.solve(dict_data, sam, n_scenarios)
 
     print("------ Heuristic solution third ------")
-    print("Obj funct solution:  ", of_heu)
+    print("Obj funct solution:  ", round(of_heu, 2))
     print("Z: ", sol_heu_z)
-    print("Computational time: ", comp_time_heu)
+    print("Computational time: ", round(comp_time_heu, 2), "s")
 
     print("------ Comparison ------")
-    print("Difference of objective function: ", of_heu - of_exact)
-    print("The heuristic is less efficient than GUROBI solution of: ", (1 - (of_exact / of_heu)) * 100, "%")
+    print("The heuristic is less efficient than GUROBI solution of: ", round((1 - (of_exact / of_heu)) * 100, 2), "%")
     plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
 
 
