@@ -135,7 +135,7 @@ All generated instances are passed as parameters to _**stochasticSaphlp.py**_ an
 
 First, two **gurobi** variables _X_ and _Z_ are defined where the matrix _X_ represents the connections between the nodes and the vector _Z_ indicates whether a node is a hub. The numbers contained in _X_ and _Z_ can only take the values 0 or 1
 
-The objecive function is computed for every scenario and then we obtain _obj_funct_ by averaging the solution of every scenario by the total number of scenarios. After adding the constraints of the problem, the objective function is solved using **gurobi**. A log file is saved containing the results of the computations done by **gurobi**.
+The objective function is computed for every scenario and then we obtain _obj_funct_ by averaging the solution of every scenario by the total number of scenarios. After adding the constraints of the problem, the objective function is solved using **gurobi**. A log file is saved containing the results of the computations done by **gurobi**.
 
 The value of the _obj_funct_, the computational time and the solution variables _solZ_ and _SolX_ computed by **gurobi** are returned back to _**main.py**_
 
