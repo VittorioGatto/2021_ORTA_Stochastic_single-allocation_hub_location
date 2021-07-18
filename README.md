@@ -83,7 +83,7 @@ subject to:
 
 ## main.py
 
-In main.py it is possible to select which dataset (.txt file) contained in the _etc_ folder we would like to solve.
+In _**main.py**_ it is possible to select which dataset (_.txt_ file) contained in the _etc_ folder we would like to solve.
 
 For instance, we can solve the dataset containing 10 nodes (10L) with fixed cost by typing:
 ``` 
@@ -107,6 +107,7 @@ _**simpleHeu.py**_; _**heuNew.py**_ and _**heuNew2.py**_  are used to solve our 
 
 ## instanceSampler.py
 
-
+the filename selected in _**main.py**_ is passed to _**instanceSampler.py**_.
+the
 
 
