@@ -134,7 +134,7 @@ First, two **gurobi** variables _X_ and _Z_ are defined where the matrix _X_ rep
 
 The objecive function is computed for every scenario and then we obtain _obj_funct_ by averaging the solution of every scenario by the total number of scenarios. After adding the constraints of the problem, the objective function is solved using **gurobi**. A log file is saved containing the results of the computations done by **gurobi**.
 
-The value of the _obj_funct_, the computational time and the solution variables _solZ_ and _SolX_ computed the **gurobi**, are returned back to _**main.py**_
+The value of the _obj_funct_, the computational time and the solution variables _solZ_ and _SolX_ computed by **gurobi**, are returned back to _**main.py**_
 
 
 
