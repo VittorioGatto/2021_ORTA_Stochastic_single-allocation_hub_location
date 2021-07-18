@@ -124,6 +124,14 @@ In  _**sampler.py**_, we use the matrix <a href="https://www.codecogs.com/eqnedi
 
 Then for each scenario we compute the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> associated between each 2 nodes _i_ and _j_.
 
-_**stochasticSaphlp.py**_ 
+## stochasticSaphlp.py 
+
+In _**stochasticSaphlp.py**_ the objective function is solved using **gurobi**. 
+
+All generated instances are passed as parameters to _**stochasticSaphlp.py**_ and are used to evaluate the objective function.
+
+First, two **gurobi** variables _X_ and _Z_ are defined where the matrix _X_ represents the connections between the nodes and the vector _Z_ indicates whether or not a node is a hub. The numbers contained in _X_ and _Z_ can only take the values 0 or 1
+
+
 
 
