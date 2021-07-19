@@ -24,7 +24,7 @@ else:
 
 dict_data = inst.get_data()
 
-# Reward generation
+# scenario generation
 n_scenarios = 100
 sam = Sampler(inst, n_scenarios)
 

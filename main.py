@@ -12,8 +12,6 @@ from heuristic.heuNew2 import HeuNew2
 from solver.sampler import Sampler
 from utility.plot_results import plot_results
 
-#np.random.seed(5)
-
 if __name__ == '__main__':
     log_name = "./logs/main.log"
     logging.basicConfig(
@@ -43,9 +41,11 @@ if __name__ == '__main__':
 
     dict_data = inst.get_data()
 
-    # Reward generation
+    # scenario generation
     n_scenarios = 5
     sam = Sampler(inst, n_scenarios)
+
+    # exact solution with GUROBI
 
     prb = StochasticSaphlp()
     of_exact, sol_Z, sol_X, comp_time_exact = prb.solve(dict_data, sam, n_scenarios, verbose=False)
@@ -102,4 +102,5 @@ if __name__ == '__main__':
     print("------ Comparison ------")
     print("The heuristic is less efficient than GUROBI solution of: ", round((1 - (of_exact / of_heu)) * 100, 2), "%")
     plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
+
 
