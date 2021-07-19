@@ -19,7 +19,6 @@ class HeuNew():
 
         sol_z_old = [0] * nodes
         p = [0] * nodes
-        of = 0
 
         sol_x_old = np.zeros((nodes, nodes, n_scenarios))
 
