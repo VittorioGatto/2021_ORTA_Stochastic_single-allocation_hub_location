@@ -71,7 +71,9 @@ class HeuNew2():
             # evaluation of objective function for given Z and X
             of_v, of = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z, sol_x, sam.c, sam.w)
 
+            # check if the new objective function is lower than the old one
             if of < of_old:
+                # if so, substitute them
                 of_old = of
                 of_old_v = of_v
                 sol_z_old = sol_z
