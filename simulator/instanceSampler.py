@@ -38,6 +38,8 @@ class InstanceSampler:
         self.chi = float(fp.readline())
         self.alpha = float(fp.readline())
         self.sigma = float(fp.readline())
+        self.xcoord = x.copy()
+        self.ycoord = y.copy()
 
         self.f = np.zeros([self.n_nodes])
         for i in range(self.n_nodes):
@@ -55,4 +57,6 @@ class InstanceSampler:
             "chi": self.chi,
             "sigma": self.sigma,
             "w": self.w,
+            "x": self.xcoord,
+            "y": self.ycoord
         }
