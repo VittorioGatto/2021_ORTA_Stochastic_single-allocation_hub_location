@@ -11,6 +11,7 @@ class SimpleHeu():
 
     def solve(self, dict_data, sam, n_scenarios):
 
+        # initialization of the variables
         nodes = dict_data['n_nodes']
         d = dict_data['d']
         f = dict_data['f']
@@ -24,23 +25,26 @@ class SimpleHeu():
 
         for s in range(n_scenarios):
 
-            # summation of all the penalty functions
+            # summation of all the distance penalty factors
             tot_pf = 0
 
             for i in range(nodes):
-                # penalty function for each node i
+                # distance penalty factor for each node i
                 pf = [0] * nodes
                 for j in range(nodes):
                     pf[i] += d[i, j] + d[j, i]
                 tot_pf += pf[i]
 
+            # summation of row elements cost for each node
             cost_row = sum(c[:, :, s], 1)
 
             for i in range(nodes):
                 p[i] = p[i] + ((f[i]) + (sam.O_flow[i, s] + sam.D_flow[i, s]) + (cost_row[i]) + (pf[i]))
 
+        # mean of the penalty factors
         avg_prob = np.mean(p)
 
+        # choosing of the hubs with penalty factors below the average
         for i in range(nodes):
             if p[i] < avg_prob:
                 sol_z[i] = 1
@@ -53,19 +57,21 @@ class SimpleHeu():
             for i in range(nodes):
                 if sol_z[i] == 1:
                     for j in range(nodes):
-                        if sol_x[j, i, s] == 1: # we safe node is linked
+                        if sol_x[j, i, s] == 1:
+                            # the node is linked, we keep it
                             ok = True
                             break
                 if not ok:
-                    sol_z[i] = 0 #has to be changed
+                    # not linked to anything, it has to be changed
+                    sol_z[i] = 0
                 ok = False
 
+            # re-computation of the X matrix
             sol_x = ev_x(nodes, d, sol_z, sol_x, s)
 
         end = time.time()
 
-
-        # Evaluation of Heuristic objective function to compare with GUROBI objective function
+        # evaluation of the objective function with given Z and X
         of_v, of = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z, sol_x, sam.c, sam.w)
 
         comp_time = end - start

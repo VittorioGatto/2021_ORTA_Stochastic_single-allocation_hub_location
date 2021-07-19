@@ -8,7 +8,7 @@ class Sampler:
         self.instance = instance
         self.n_scenarios = n_scenarios
 
-        # w is the flow from node s to node j
+        # w is the flow from node i to node j
         pi = np.random.uniform(0.5, 1.5, size=(instance.n_nodes, n_scenarios))
         pj = np.random.uniform(0.5, 1.5, size=(instance.n_nodes, n_scenarios))
         self.w = np.zeros(shape=(instance.n_nodes, instance.n_nodes, n_scenarios))

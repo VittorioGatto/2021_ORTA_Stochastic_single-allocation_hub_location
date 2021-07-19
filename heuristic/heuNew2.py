@@ -16,7 +16,7 @@ class HeuNew2():
         f = dict_data['f']
         c = sam.c
 
-        sol_z_old = [0] * nodes
+        sol_z_old = [1] * nodes
         p = [0] * nodes
         of = 0
 
@@ -36,23 +36,28 @@ class HeuNew2():
                     pf[i] += d[i, j] + d[j, i]
                 tot_pf += pf[i]
 
+            # summation of row elements cost for each node
             cost_row = sum(c[:, :, s], 1)
 
             for i in range(nodes):
                 p[i] = p[i] + ((f[i]) + (sam.O_flow[i, s] + sam.D_flow[i, s]) + (cost_row[i]) + (pf[i]))
 
+        # sorting the nodes vector sort_index in increasing-p order
+        # s.t. sort_index[0] corresponds to the index of node with lowest p
         sort_index = np.argsort(p)
-        sol_z_old[sort_index[0]] = 1
+
+        # at first, the number of hub chosen is equal to the number of nodes
 
         for s in range(n_scenarios):
             sol_x_old = ev_x(nodes, d, sol_z_old, sol_x_old, s)
 
-        # Evaluation of Heuristic objective function to compare with GUROBI objective function
+        # evaluation of objective function for given Z and X
         of_old_v, of_old = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z_old, sol_x_old, sam.c, sam.w)
 
-        w = nodes
+        # at first we try with number of hubs = total number of nodes
+        w = round(nodes/2)
 
-        # we try starting from tot number of nodes and decrease halving by 2
+        # then we iterate halving w each time and rounding it
         while w > 0:
             sol_x = np.zeros((nodes, nodes, n_scenarios))
             sol_z = [0] * nodes
@@ -63,7 +68,7 @@ class HeuNew2():
             for s in range(n_scenarios):
                 sol_x = ev_x(nodes, d, sol_z, sol_x, s)
 
-            # Evaluation of Heuristic objective function to compare with GUROBI objective function
+            # evaluation of objective function for given Z and X
             of_v, of = ev_obf(nodes, f, d, n_scenarios, dict_data['alpha'], sol_z, sol_x, sam.c, sam.w)
 
             if of < of_old:
@@ -73,6 +78,7 @@ class HeuNew2():
                 sol_x_old = sol_x
 
             w = round(w/2)
+
 
         end = time.time()
 
