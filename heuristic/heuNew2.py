@@ -62,9 +62,11 @@ class HeuNew2():
             sol_x = np.zeros((nodes, nodes, n_scenarios))
             sol_z = [0] * nodes
 
+            # the lowest-p nodes chosen as hubs
             for i in range(w):
                 sol_z[sort_index[i]] = 1
 
+            # evaluation of X matrix for the current Z
             for s in range(n_scenarios):
                 sol_x = ev_x(nodes, d, sol_z, sol_x, s)
 
@@ -79,8 +81,8 @@ class HeuNew2():
                 sol_z_old = sol_z
                 sol_x_old = sol_x
 
+            # decrease w
             w = round(w/2)
-
 
         end = time.time()
 
