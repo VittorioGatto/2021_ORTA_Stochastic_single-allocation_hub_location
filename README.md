@@ -83,19 +83,24 @@ subject to:
 
 ## main.py
 
-In _**main.py**_ it is possible to select which dataset (_.txt_ file) contained in the _etc_ folder we would like to solve.
+In _**main.py**_, by selecting _mode_ 0, it is possible to select which dataset (_.txt_ file) contained in the _etc_ folder we would like to solve.
+
+``` 
+(28)    mode = 0
+```
 
 For instance, we can solve the dataset containing 10 nodes (10L) with fixed cost by typing:
 ``` 
-(27)    filename = "./etc/10L"
+(33)    filename = "./etc/10L"
 ```
 
 Dataset options are: _10L; 10T; 20L; 20T; 25L; 25T; 40L; 40T; 50L; 50T_ and _easy_instance_ (6 nodes).
 
+By selecting _mode_ 1, it is possible to generate a random dataset based on the values inside the _sim_setting.json_ file.
 
 It is also possible to select the number of scenarios for our problem by modifying the variable _n_scenarios_:
 ``` 
-(39)    n_scenarios = 5
+(45)    n_scenarios = 5
 ```
 
 _**instanceSampler.py**_ and _**sampler.py**_ are then used to generate the instances of our problem.
@@ -127,11 +132,11 @@ In  _**sampler.py**_, the matrix <a href="https://www.codecogs.com/eqnedit.php?l
 
 Then for each scenario we compute the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> associated between each two nodes _i_ and _j_.
 
-## stochasticSaphlp.py 
+## stochasticSahlp.py 
 
-In _**stochasticSaphlp.py**_ the objective function is solved using **gurobi**. 
+In _**stochasticSahlp.py**_ the objective function is solved using **gurobi**. 
 
-All generated instances are passed as parameters to _**stochasticSaphlp.py**_ and are used to evaluate the objective function.
+All generated instances are passed as parameters to _**stochasticSahlp.py**_ and are used to evaluate the objective function.
 
 First, two **gurobi** variables _X_ and _Z_ are defined where the matrix _X_ represents the connections between the nodes and the vector _Z_ indicates whether a node is a hub. The numbers contained in _X_ and _Z_ can only take the values 0 or 1
 
@@ -154,13 +159,22 @@ _**ev_obj.py**_ is used to evaluate the objective function using the heuristic s
 
 Then the value of the objective function, the computational time and the solution variables _solZ_ and _SolX_ are returned back to _**main.py**_
 
+## newHeu.py 
+
+Like _**simpleHeu.py**_, _**newHeu.py**_ starts by computing the penalty function _p[i]_ for every scenario using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
+
+At the first loop, the 2 hubs with the lowest penalty factor are selected, the subsequent objective function will be computed. The same will be done for 3 and 4 hubs in the next loops.
+
+At the end of the loop, the lowest objective function obtained with the _sol_x_ and _sol_z_ solutions will be selected.
+
+Then the value of the objective function, the computational time and the solution variables _sol_x_ and _sol_z_ are returned back to _**main.py**_
+
+
 ## newHeu2.py 
 
-(I did not include _**newHeu.py**_ (yet?) because I am sure how it works compared to _**newHeu2.py**_)
+Like _**simpleHeu.py**_ and _**newHeu.py**_ , _**newHeu2.py**_ starts by computing the penalty function _p[i]_ for every scenario using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
 
-Like _**simpleHeu.py**_, _**newHeu2.py**_ starts by computing the penalty function _p[i]_ for every scenario using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
-
-The hubs are then selected one by one (each time adding one more hub) according to their penalty function (starting from the lowest). The matrix _sol_x_ is deduced from _sol_z_ using  _**ev_x.py**_ . Every iteration, the objective function is computed for the obtained _sol_z_ and _sol_x_ using _**ev_obj.py**_
+Unlike _**newHeu.py**_, in _**newHeu2.py**_, all the nodes are chosen as hubs in the begining. Then after every iteration the number of hubs is halfed (the hubs will be removed according to their penalty factor). The matrix _sol_x_ is deduced from _sol_z_ using  _**ev_x.py**_ . In every iteration, the objective function is computed for the obtained _sol_z_ and _sol_x_ using _**ev_obj.py**_
 
 At the end of the loop, the lowest objective function obtained with the _sol_x_ and _sol_z_ solutions will be selected.
 
@@ -173,7 +187,7 @@ For every solution, _**plot_results.py**_ is used to visualize the obtained resu
 
 **networkx** and **matplotlib** are used to display the results. 
 
-For every scenario, the nodes will be placed according to their distance and they will be connected according the matrix _X_
+For every scenario, the nodes will be placed according to their distance and they will be connected according the matrix _X_. Moreover their size will be proportional to their outgoing flow.
 
 Two different colors are used to differentiate nodes and hubs.
 
