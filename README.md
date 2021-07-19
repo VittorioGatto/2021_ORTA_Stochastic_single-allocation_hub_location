@@ -83,7 +83,7 @@ subject to:
 
 ## main.py
 
-In _**main.py**_, by selecting _mode_ to 0, it is possible to select which dataset (_.txt_ file) contained in the _etc_ folder we would like to solve.
+In _**main.py**_, by selecting _mode_ 0, it is possible to select which dataset (_.txt_ file) contained in the _etc_ folder we would like to solve.
 
 ``` 
 (28)    mode = 0
@@ -96,7 +96,7 @@ For instance, we can solve the dataset containing 10 nodes (10L) with fixed cost
 
 Dataset options are: _10L; 10T; 20L; 20T; 25L; 25T; 40L; 40T; 50L; 50T_ and _easy_instance_ (6 nodes).
 
-By selecting _mode_ to 1, it is possible to generate a random dataset based on the values inside the _sim_setting.json_ file.
+By selecting _mode_ 1, it is possible to generate a random dataset based on the values inside the _sim_setting.json_ file.
 
 It is also possible to select the number of scenarios for our problem by modifying the variable _n_scenarios_:
 ``` 
