@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import logging
 import numpy as np
+from math import *
 
 #Random generation DATA
 
@@ -18,32 +19,31 @@ class Instance:
         self.sigma = sim_setting['sigma']
 
         #f is the fixed cost of the hub node
-        self.f = [28766.736921, 28376.761527, 29774.238965, 24301.334212, 25853.461856, 20762.874300, 34166.355726, 33859.209322, 24717.891218, 33686.431972]
-        # self.f = np.around(np.random.uniform(sim_setting['low_cost_fixed'], sim_setting['high_cost_fixed'],
-        #                                     sim_setting['n_nodes']))
+        #self.f = [28766.736921, 28376.761527, 29774.238965, 24301.334212, 25853.461856, 20762.874300, 34166.355726, 33859.209322, 24717.891218, 33686.431972]
+        self.f = np.around(np.random.uniform(sim_setting['low_cost_fixed'], sim_setting['high_cost_fixed'],
+                                             sim_setting['n_nodes']))
 
+        x = np.around(np.random.uniform(sim_setting['low_d'], sim_setting['high_d'],
+                                             size=(sim_setting['n_nodes'])))
 
-        # # d is the matrix of distances between
-        # self.d = np.array([ [ 0,  1,  1,  1,  1, 50, 50, 50, 50, 50],
-        #                     [ 1,  0,  1,  1,  1, 50, 50, 50, 50, 50],
-        #                     [ 1,  1,  0,  1,  1, 50, 50, 50, 50, 50],
-        #                     [ 1,  1,  1,  0,  1, 50, 50, 50, 50, 50],
-        #                     [ 1,  1,  1,  1,  0, 50,  1,  1,  1,  1],
-        #                     [50, 50, 50, 50, 50,  0,  1,  1,  1,  1],
-        #                     [50, 50, 50, 50,  1,  1,  0,  1,  1,  1],
-        #                     [50, 50, 50, 50,  1,  1,  1,  0,  1,  1],
-        #                     [50, 50, 50, 50,  1,  1,  1,  1,  0,  1],
-        #                     [50, 50, 50, 50,  1,  1,  1,  1,  1,  0]])
+        y = np.around(np.random.uniform(sim_setting['low_d'], sim_setting['high_d'],
+                                             size=(sim_setting['n_nodes'])))
 
+        self.d = np.zeros(shape=(self.n_nodes, self.n_nodes))
 
-        self.d = np.around(np.random.uniform(sim_setting['low_d'], sim_setting['high_d'],
-                                             size=(sim_setting['n_nodes'], sim_setting['n_nodes'])))
+        for i in range(self.n_nodes):
+            for j in range(self.n_nodes):
+                self.d[i, j] = sqrt(pow((x[i] - x[j]), 2) + pow((y[i] - y[j]), 2))
+
+        self.xcoord = x.copy()
+        self.ycoord = y.copy()
+
         self.d = (self.d + self.d.T) / 2
         np.fill_diagonal(self.d, 0)
 
+        self.w = np.around(np.random.uniform(sim_setting['low_w'], sim_setting['high_w'], size=(sim_setting['n_nodes'], sim_setting['n_nodes'])))
 
 
-        logging.info(f"n_nodes: {self.n_nodes}")
 
     def get_data(self):
         logging.info("getting data from instance...")
@@ -54,4 +54,6 @@ class Instance:
             "alpha": self.alpha,
             "chi": self.chi,
             "sigma": self.sigma,
+            "x": self.xcoord,
+            "y": self.ycoord
         }

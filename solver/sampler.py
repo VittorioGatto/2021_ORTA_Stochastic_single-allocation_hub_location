@@ -9,15 +9,6 @@ class Sampler:
         self.n_scenarios = n_scenarios
 
         #w is the flow from node s to node j
-        # self.w = np.absolute(np.random.poisson(8, size=(instance.n_nodes, instance.n_nodes, n_scenarios)))
-        # pii = np.random.uniform(0.5, 1.5, size=(instance.n_nodes, n_scenarios))
-        # pij = np.random.uniform(0.5, 1.5, size=(instance.n_nodes, n_scenarios))
-        # for s in range(n_scenarios):
-        #     for i in range(instance.n_nodes):
-        #         for j in range(instance.n_nodes):
-        #             self.w[j, i, s] = self.w[j, i, s] * pii[i, s]
-        #             self.w[j, i, s] = self.w[j, i, s] * pij[j, s]
-
         pi = np.random.uniform(0.5, 1.5, size=(instance.n_nodes, n_scenarios))
         pj = np.random.uniform(0.5, 1.5, size=(instance.n_nodes, n_scenarios))
         self.w = np.zeros(shape=(instance.n_nodes, instance.n_nodes, n_scenarios))

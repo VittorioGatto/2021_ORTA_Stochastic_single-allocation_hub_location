@@ -3,7 +3,6 @@
 
 import json
 import logging
-import numpy as np
 from simulator.instanceSampler import InstanceSampler
 from simulator.instance import Instance
 from solver.stochasticSaphlp import StochasticSaphlp
@@ -23,15 +22,24 @@ if __name__ == '__main__':
         level=logging.INFO, datefmt="%H:%M:%S",
         filemode='w'
     )
-    # to select the number of nodes change the xx in ./etc/xx below
-    filename = "./etc/10T"
 
-    inst = InstanceSampler(filename)
+    # change the value of mode
+    # if you want a random dataset set mode to 1
+    # if you want a fixed dataset set mode to 0
 
-    # fp = open("./etc/sim_setting.json", 'r')
-    # sim_setting = json.load(fp)
-    # fp.close()
-    # inst = Instance(sim_setting)
+    mode = 0
+
+    if mode == 0:
+        # to select the number of nodes change the xx in ./etc/xx below
+        # in order to match a fixed dataset included in the etc folder
+        filename = "./etc/10T"
+        inst = InstanceSampler(filename)
+    else:
+        # this will generate a random dataset based on the values inside the sim_setting.json file
+        fp = open("./etc/sim_setting.json", 'r')
+        sim_setting = json.load(fp)
+        fp.close()
+        inst = Instance(sim_setting)
 
     dict_data = inst.get_data()
 
@@ -95,10 +103,3 @@ if __name__ == '__main__':
     print("The heuristic is less efficient than GUROBI solution of: ", round((1 - (of_exact / of_heu)) * 100, 2), "%")
     plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
 
-
-    # # printing results of a file
-    # file_output = open("./results/exp_general_table.csv", "w")
-    # file_output.write("method, of, sol, time\n")
-    # file_output.write("{}, {}, {}, {}\n".format("heu", of_heu, sol_heu, comp_time_heu))
-    # file_output.write("{}, {}, {}, {}\n".format("exact", of_heu, sol_heu, comp_time_heu))
-    # file_output.close()
