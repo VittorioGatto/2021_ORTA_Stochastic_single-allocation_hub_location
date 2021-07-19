@@ -201,4 +201,7 @@ It is possible to select the number of scenarios over which the statistics will 
 ``` 
 (13)    n_scenarios = 100
 ```
+## Generator.c
 
+_**Generator.c**_  is used to generate subset of the dataset starting from 200 nodes.
+The generated datasets will be used as the instances for our problem.
