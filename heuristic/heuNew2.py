@@ -11,14 +11,13 @@ class HeuNew2():
 
     def solve(self, dict_data, sam, n_scenarios):
 
+        # initialization of the variables
         nodes = dict_data['n_nodes']
         d = dict_data['d']
         f = dict_data['f']
         c = sam.c
 
-        sol_z_old = [1] * nodes
         p = [0] * nodes
-        of = 0
 
         sol_x_old = np.zeros((nodes, nodes, n_scenarios))
 
@@ -47,6 +46,7 @@ class HeuNew2():
         sort_index = np.argsort(p)
 
         # at first, the number of hub chosen is equal to the number of nodes
+        sol_z_old = [1] * nodes
 
         for s in range(n_scenarios):
             sol_x_old = ev_x(nodes, d, sol_z_old, sol_x_old, s)
