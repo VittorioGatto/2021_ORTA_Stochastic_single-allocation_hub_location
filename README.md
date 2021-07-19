@@ -86,7 +86,7 @@ subject to:
 In _**main.py**_, by selecting _mode_ to 0, it is possible to select which dataset (_.txt_ file) contained in the _etc_ folder we would like to solve.
 
 ``` 
-(30)    mode == 0
+(28)    mode = 0
 ```
 
 For instance, we can solve the dataset containing 10 nodes (10L) with fixed cost by typing:
