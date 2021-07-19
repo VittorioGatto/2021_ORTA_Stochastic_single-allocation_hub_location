@@ -20,11 +20,7 @@ def plot_results(inst, sam, Z, X, n_scenarios):
         # size of the nodes proportional to the OUTGOING FLOW
         mapped0_flow = sam.O_flow[:, s] * pi
 
-        for i in range(inst.n_nodes):
-            for j in range(inst.n_nodes):
-                if i != j:
-                    sol[i, j] = sol[i, j] * (1 / inst.d[i, j])
-
+        # creation of the graph from the X matrix
         net = nx.from_numpy_matrix(sol)
 
         color_map = []
@@ -34,11 +30,11 @@ def plot_results(inst, sam, Z, X, n_scenarios):
             else:
                 color_map.append('yellow')
 
-        # printing of Z vector
+        # printing of the results
         title = 'Plot Scenario n:' + str(s)
         plt.title(title)
         nx.draw(net, pos=pos, node_size=mapped0_flow, node_color=color_map, with_labels=True)
-        limits = plt.axis('on')  # turns on axis
+        plt.axis('on')  # turns on axis
         plt.tick_params(left=True, bottom=True, labelleft=True, labelbottom=True)
         plt.legend()
         plt.show()

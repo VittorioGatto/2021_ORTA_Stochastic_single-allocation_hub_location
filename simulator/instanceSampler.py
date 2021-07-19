@@ -12,7 +12,7 @@ class InstanceSampler:
         x = []
         y = []
 
-        # create from coordinates value distance value
+        # read the value of the coordinates
         for i in range(self.n_nodes):
             v = fp.readline().split()
             x.append(float(v[0]))
@@ -20,13 +20,14 @@ class InstanceSampler:
 
         self.d = np.zeros(shape=(self.n_nodes, self.n_nodes))
 
+        # create from coordinates distance value
         for i in range(self.n_nodes):
             for j in range(self.n_nodes):
                 self.d[i, j] = sqrt(pow((x[i] - x[j]), 2) + pow((y[i] - y[j]), 2))
 
-        # take the flow
         self.w = np.zeros([self.n_nodes, self.n_nodes])
 
+        # take the flow
         for i in range(self.n_nodes):
             flow = fp.readline().split()
             for j in range(self.n_nodes):
@@ -35,15 +36,19 @@ class InstanceSampler:
         # value that we don't consider
         fp.readline()
 
+        # read the constants chi-alpha-sigma
         self.chi = float(fp.readline())
         self.alpha = float(fp.readline())
         self.sigma = float(fp.readline())
-        self.xcoord = x.copy()
-        self.ycoord = y.copy()
 
+        # read the fixed costs of the nodes
         self.f = np.zeros([self.n_nodes])
         for i in range(self.n_nodes):
             self.f[i] = float(fp.readline())
+
+        # set the coordinates to be passed to plot_results.py
+        self.xcoord = x.copy()
+        self.ycoord = y.copy()
 
         fp.close()
 

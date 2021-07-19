@@ -5,7 +5,7 @@ import json
 import logging
 from simulator.instanceSampler import InstanceSampler
 from simulator.instance import Instance
-from solver.stochasticSaphlp import StochasticSaphlp
+from solver.stochasticSahlp import StochasticSaphlp
 from heuristic.simpleHeu import SimpleHeu
 from heuristic.heuNew import HeuNew
 from heuristic.heuNew2 import HeuNew2
@@ -25,12 +25,12 @@ if __name__ == '__main__':
     # if you want a random dataset set mode to 1
     # if you want a fixed dataset set mode to 0
 
-    mode = 0
+    mode = 1
 
     if mode == 0:
         # to select the number of nodes change the xx in ./etc/xx below
         # in order to match a fixed dataset included in the etc folder
-        filename = "./etc/10T"
+        filename = "./etc/10L"
         inst = InstanceSampler(filename)
     else:
         # this will generate a random dataset based on the values inside the sim_setting.json file

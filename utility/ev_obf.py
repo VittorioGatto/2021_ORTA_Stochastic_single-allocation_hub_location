@@ -48,7 +48,10 @@ def ev_obf(nodes, f, d, n_scenarios, alpha, sol_z, sol_x, c, w):
                 D = 0
 
         of_v[s] += s_term
+
+    # of_1 term (stage 1) is common for all the scenario
     of = of_1 + sum(of_v) / n_scenarios
-    of_v = of_v + of_1
+    # the second represents the second stages for every scenario
+    of_v = of_1 + of_v
 
     return of_v, of
