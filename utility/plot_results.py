@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 def plot_results(inst, sam, Z, X, n_scenarios):
     for s in range(n_scenarios):
 
+        # X is the matrix of the links between nodes and hubs
         sol = X[:, :, s].copy()
 
-        # # distances based on the d matrix in instance.py
-        # distances = nx.from_numpy_matrix(inst.d)
-        # positions = nx.spring_layout(distances, seed=10)
+        # distances based on the x and y coordinates of the nodes
+        # we get it from instance.py or instanceSampler.py
         pos = {}
         for i in range(inst.n_nodes):
             pos.update({i: (inst.xcoord[i], inst.ycoord[i])})
@@ -23,6 +23,7 @@ def plot_results(inst, sam, Z, X, n_scenarios):
         # creation of the graph from the X matrix
         net = nx.from_numpy_matrix(sol)
 
+        # coloring the graph
         color_map = []
         for i in range(inst.n_nodes):
             if Z[i] == 0:

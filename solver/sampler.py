@@ -32,7 +32,6 @@ class Sampler:
         for s in range(n_scenarios):
             for j in range(instance.n_nodes):
                 for k in range(instance.n_nodes):
-
                     self.c[j][k][s] = instance.d[j, k] * (instance.chi * self.O_flow[j, s]
                                                           + instance.sigma * self.D_flow[j, s])
 

@@ -33,7 +33,7 @@ class InstanceSampler:
             for j in range(self.n_nodes):
                 self.w[i, j] = float(flow[j])
 
-        # value that we don't consider
+        # value that we don't consider in the fixed dataset
         fp.readline()
 
         # read the constants chi-alpha-sigma
