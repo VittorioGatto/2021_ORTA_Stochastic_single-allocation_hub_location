@@ -91,7 +91,7 @@ In _**main.py**_, by selecting _mode_ to 0, it is possible to select which datas
 
 For instance, we can solve the dataset containing 10 nodes (10L) with fixed cost by typing:
 ``` 
-(27)    filename = "./etc/10L"
+(33)    filename = "./etc/10L"
 ```
 
 Dataset options are: _10L; 10T; 20L; 20T; 25L; 25T; 40L; 40T; 50L; 50T_ and _easy_instance_ (6 nodes).
@@ -100,7 +100,7 @@ By selecting _mode_ to 1, it is possible to generate a random dataset based on t
 
 It is also possible to select the number of scenarios for our problem by modifying the variable _n_scenarios_:
 ``` 
-(39)    n_scenarios = 5
+(45)    n_scenarios = 5
 ```
 
 _**instanceSampler.py**_ and _**sampler.py**_ are then used to generate the instances of our problem.
