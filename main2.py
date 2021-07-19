@@ -13,7 +13,7 @@ mode = 1
 if mode == 0:
     # to select the number of nodes change the xx in ./etc/xx below
     # in order to match a fixed dataset included in the etc folder
-    filename = "./etc/10T"
+    filename = "./etc/40T"
     inst = InstanceSampler(filename)
 else:
     # this will generate a random dataset based on the values inside the sim_setting.json file
@@ -37,7 +37,7 @@ mean_of = np.mean(of_hev_v)
 min_of = np.min(of_hev_v)
 max_of = np.max(of_hev_v)
 
-print("std: ", std_of, "\n")
 print("mean: ", mean_of, "\n")
+print("std: ", std_of, "\n")
 print("min: ", min_of, "\n")
 print("max: ", max_of, "\n")

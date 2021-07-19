@@ -54,7 +54,6 @@ class HeuNew2():
 
         # we try starting from tot number of nodes and decrease halving by 2
         while w > 0:
-
             sol_x = np.zeros((nodes, nodes, n_scenarios))
             sol_z = [0] * nodes
 
