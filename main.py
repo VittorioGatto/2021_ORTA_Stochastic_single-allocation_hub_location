@@ -30,7 +30,7 @@ if __name__ == '__main__':
     if mode == 0:
         # to select the number of nodes change the xx in ./etc/xx below
         # in order to match a fixed dataset included in the etc folder
-        filename = "./etc/10T"
+        filename = "./etc/25T"
         inst = InstanceSampler(filename)
     else:
         # this will generate a random dataset based on the values inside the sim_setting.json file
@@ -42,7 +42,7 @@ if __name__ == '__main__':
     dict_data = inst.get_data()
 
     # scenario generation
-    n_scenarios = 10
+    n_scenarios = 25
     sam = Sampler(inst, n_scenarios)
 
     # exact solution with GUROBI
@@ -68,7 +68,7 @@ if __name__ == '__main__':
     print("Computational time: ", round(comp_time_heu, 4), "s")
 
     print("------ Comparison ------")
-    print("The heuristic is less efficient than GUROBI solution of: ", round((1 - (of_exact/of_heu))*100, 2), "%")
+    print("The GAP between heuristic and GUROBI solution is: ", round((1 - (of_exact/of_heu))*100, 2), "%")
     plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
     print("\n")
     print("\n")
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     print("Computational time: ", round(comp_time_heu, 4), "s")
 
     print("------ Comparison ------")
-    print("The heuristic is less efficient than GUROBI solution of: ", round((1 - (of_exact/of_heu))*100, 2), "%")
+    print("The GAP between heuristic and GUROBI solution is: ", round((1 - (of_exact/of_heu))*100, 2), "%")
     plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
     print("\n")
     print("\n")
@@ -100,7 +100,7 @@ if __name__ == '__main__':
     print("Computational time: ", round(comp_time_heu, 4), "s")
 
     print("------ Comparison ------")
-    print("The heuristic is less efficient than GUROBI solution of: ", round((1 - (of_exact / of_heu)) * 100, 2), "%")
+    print("The GAP between heuristic and GUROBI solution is: ", round((1 - (of_exact / of_heu)) * 100, 2), "%")
     plot_results(inst, sam, sol_heu_z, sol_heu_x, n_scenarios)
 
 
