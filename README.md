@@ -59,14 +59,14 @@ We consider the following **two-stage stochastic SAHLP** problem:
 
 
 
-where: 
+Where: 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\emph{c\textsubscript{ij}\textsuperscript{s}&space;=&space;d\textsubscript{ik}&space;($\chi$&space;O\textsubscript{i}\textsuperscript{s}&space;&plus;&space;$\delta$&space;D\textsubscript{i}\textsuperscript{s}})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\emph{c\textsubscript{ij}\textsuperscript{s}&space;=&space;d\textsubscript{ik}&space;($\chi$&space;O\textsubscript{i}\textsuperscript{s}&space;&plus;&space;$\delta$&space;D\textsubscript{i}\textsuperscript{s}})" title="\emph{c\textsubscript{ij}\textsuperscript{s} = d\textsubscript{ik} ($\chi$ O\textsubscript{i}\textsuperscript{s} + $\delta$ D\textsubscript{i}\textsuperscript{s}})" /></a>
 
 
 
 
-subject to:
+Subject to:
 
 
 
@@ -83,20 +83,20 @@ subject to:
 
 ## main.py
 
-In _**main.py**_, by selecting _mode_ 0, it is possible to select which dataset (_.txt_ file) contained in the _etc_ folder we would like to solve.
+In _**main.py**_, by selecting _mode_ 0, it is possible to select which data set (_.txt_ file) contained in the _etc_ folder we would like to solve.
 
 ``` 
 (28)    mode = 0
 ```
 
-For instance, we can solve the dataset containing 10 nodes (10L) with fixed cost by typing:
+For instance, we can solve the data set containing 10 nodes (10L) with fixed cost by typing:
 ``` 
 (33)    filename = "./etc/10L"
 ```
 
-Dataset options are: _10L; 10T; 20L; 20T; 25L; 25T; 40L; 40T; 50L; 50T_ and _easy_instance_ (6 nodes).
+Data set options are: _10L; 10T; 20L; 20T; 25L; 25T; 40L; 40T; 50L; 50T_ and _easy_instance_ (6 nodes).
 
-By selecting _mode_ 1, it is possible to generate a random dataset based on the values inside the _sim_setting.json_ file.
+By selecting _mode_ 1, it is possible to generate a random data set based on the values inside the _sim_setting.json_ file.
 
 It is also possible to select the number of scenarios for our problem by modifying the variable _n_scenarios_:
 ``` 
@@ -117,7 +117,7 @@ _**simpleHeu.py**_; _**heuNew.py**_ and _**heuNew2.py**_  are used to solve our 
 
 The filename selected in _**main.py**_ is passed to _**instanceSampler.py**_
 
-The dataset is read from the file and is then used to compute the instances of our problem. 
+The data set is read from the file and is then used to compute the instances of our problem. 
 
 The number of nodes is read first. Each node is represented by a pair of cartesian coordinates _x_ and _y_ that will be used in order to compute the distance between the nodes, 
 the distances will be written in the matrix <a href="https://www.codecogs.com/eqnedit.php?latex=d_{ij}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_{ij}" title="d_{ij}" /></a>
@@ -149,7 +149,7 @@ The value of the _obj_funct_, the computational time and the solution variables 
 
 _**simpleHeu.py**_  is the first suggested heuristic for the problem.
 
-In every scenario, a penalty function _p[i]_ is computed using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
+In every scenario, a penalty factor _p[i]_ is computed using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
 
 Every _p[i]_ is compared to the average of the _p[]_ vector, if it is less, the node will become a hub. Then we check if there are hubs with no links, change them back to nodes and connect them to the nearest hub.
 
@@ -161,7 +161,7 @@ Then the value of the objective function, the computational time and the solutio
 
 ## newHeu.py 
 
-Like _**simpleHeu.py**_, _**newHeu.py**_ starts by computing the penalty function _p[i]_ for every scenario using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
+Like _**simpleHeu.py**_, _**newHeu.py**_ starts by computing the penalty factor _p[i]_ for every scenario using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
 
 At the first loop, the 2 hubs with the lowest penalty factor are selected, the subsequent objective function will be computed. The same will be done for 3 and 4 hubs in the next loops.
 
@@ -172,7 +172,7 @@ Then the value of the objective function, the computational time and the solutio
 
 ## newHeu2.py 
 
-Like _**simpleHeu.py**_ and _**newHeu.py**_ , _**newHeu2.py**_ starts by computing the penalty function _p[i]_ for every scenario using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
+Like _**simpleHeu.py**_ and _**newHeu.py**_ , _**newHeu2.py**_ starts by computing the penalty factor _p[i]_ for every scenario using the fixed cost, the outgoing flow <a href="https://www.codecogs.com/eqnedit.php?latex=O_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O_{i}^{s}" title="O_{i}^{s}" /></a>, the incoming flow <a href="https://www.codecogs.com/eqnedit.php?latex=D_{i}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{i}^{s}" title="D_{i}^{s}" /></a> and the cost <a href="https://www.codecogs.com/eqnedit.php?latex=c_{ij}^{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?c_{ij}^{s}" title="c_{ij}^{s}" /></a> for every node. 
 
 Unlike _**newHeu.py**_, in _**newHeu2.py**_, all the nodes are chosen as hubs in the begining. Then after every iteration the number of hubs is halfed (the hubs will be removed according to their penalty factor). The matrix _sol_x_ is deduced from _sol_z_ using  _**ev_x.py**_ . In every iteration, the objective function is computed for the obtained _sol_z_ and _sol_x_ using _**ev_obj.py**_
 
@@ -201,4 +201,8 @@ It is possible to select the number of scenarios over which the statistics will 
 ``` 
 (13)    n_scenarios = 100
 ```
+## Generator.c
 
+_**Generator.c**_  is used to generate subset of the data set starting from 200 nodes.
+
+The generated data sets will be used as the instances for our problem.
