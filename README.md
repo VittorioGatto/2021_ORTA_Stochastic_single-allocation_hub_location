@@ -83,20 +83,20 @@ subject to:
 
 ## main.py
 
-In _**main.py**_, by selecting _mode_ 0, it is possible to select which dataset (_.txt_ file) contained in the _etc_ folder we would like to solve.
+In _**main.py**_, by selecting _mode_ 0, it is possible to select which data set (_.txt_ file) contained in the _etc_ folder we would like to solve.
 
 ``` 
 (28)    mode = 0
 ```
 
-For instance, we can solve the dataset containing 10 nodes (10L) with fixed cost by typing:
+For instance, we can solve the data set containing 10 nodes (10L) with fixed cost by typing:
 ``` 
 (33)    filename = "./etc/10L"
 ```
 
-Dataset options are: _10L; 10T; 20L; 20T; 25L; 25T; 40L; 40T; 50L; 50T_ and _easy_instance_ (6 nodes).
+Data set options are: _10L; 10T; 20L; 20T; 25L; 25T; 40L; 40T; 50L; 50T_ and _easy_instance_ (6 nodes).
 
-By selecting _mode_ 1, it is possible to generate a random dataset based on the values inside the _sim_setting.json_ file.
+By selecting _mode_ 1, it is possible to generate a random data set based on the values inside the _sim_setting.json_ file.
 
 It is also possible to select the number of scenarios for our problem by modifying the variable _n_scenarios_:
 ``` 
@@ -117,7 +117,7 @@ _**simpleHeu.py**_; _**heuNew.py**_ and _**heuNew2.py**_  are used to solve our 
 
 The filename selected in _**main.py**_ is passed to _**instanceSampler.py**_
 
-The dataset is read from the file and is then used to compute the instances of our problem. 
+The data set is read from the file and is then used to compute the instances of our problem. 
 
 The number of nodes is read first. Each node is represented by a pair of cartesian coordinates _x_ and _y_ that will be used in order to compute the distance between the nodes, 
 the distances will be written in the matrix <a href="https://www.codecogs.com/eqnedit.php?latex=d_{ij}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_{ij}" title="d_{ij}" /></a>
@@ -203,6 +203,6 @@ It is possible to select the number of scenarios over which the statistics will 
 ```
 ## Generator.c
 
-_**Generator.c**_  is used to generate subset of the dataset starting from 200 nodes.
+_**Generator.c**_  is used to generate subset of the data set starting from 200 nodes.
 
-The generated datasets will be used as the instances for our problem.
+The generated data sets will be used as the instances for our problem.
